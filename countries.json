@@ -1,73 +1,118 @@
 [
   {
-    "currencyName": "United Arab Emirates Dirham",
-    "currencyCode": "AED",
-    "displayName": "United Arab Emirates Dirham - (AED)",
-    "countryName": "United Arab Emirates",
-    "countryCode": ["+971"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg",
-    "timezones": { "Asia/Dubai": "+04:00" },
-    "iso": { "alpha-2": "AE", "alpha-3": "ARE", "numeric": "784" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Afghan Afghani",
-    "currencyCode": "AFN",
-    "displayName": "Afghan Afghani - (AFN)",
-    "countryName": "Afghanistan",
-    "countryCode": ["+93"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AF.svg",
-    "timezones": { "Asia/Kabul": "+04:30" },
+    "country": "Afghanistan",
+    "capital": ["Kabul"],
     "iso": { "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004" },
-    "region": "Asia"
+    "currency": { "AFN": { "name": "Afghan afghani", "symbol": "؋" } },
+    "dial_code": ["+93"],
+    "timezone": { "Asia/Kabul": "+04:30" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AF.svg"
   },
   {
-    "currencyName": "Albanian Lek",
-    "currencyCode": "ALL",
-    "displayName": "Albanian Lek - (ALL)",
-    "countryName": "Albania",
-    "countryCode": ["+355"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AL.svg",
-    "timezones": { "Europe/Tirane": "+02:00" },
+    "country": "Albania",
+    "capital": ["Tirana"],
     "iso": { "alpha-2": "AL", "alpha-3": "ALB", "numeric": "008" },
-    "region": "Europe"
+    "currency": { "ALL": { "name": "Albanian lek", "symbol": "L" } },
+    "dial_code": ["+355"],
+    "timezone": { "Europe/Tirane": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AL.svg"
   },
   {
-    "currencyName": "Armenian Dram",
-    "currencyCode": "AMD",
-    "displayName": "Armenian Dram - (AMD)",
-    "countryName": "Armenia",
-    "countryCode": ["+374"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg",
-    "timezones": { "Asia/Yerevan": "+04:00" },
-    "iso": { "alpha-2": "AM", "alpha-3": "ARM", "numeric": "051" },
-    "region": "Asia"
+    "country": "Algeria",
+    "capital": ["Algiers"],
+    "iso": { "alpha-2": "DZ", "alpha-3": "DZA", "numeric": "012" },
+    "currency": { "DZD": { "name": "Algerian dinar", "symbol": "د.ج" } },
+    "dial_code": ["+213"],
+    "timezone": { "Africa/Algiers": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DZ.svg"
   },
   {
-    "currencyName": "Netherlands Antillean Guilder",
-    "currencyCode": "ANG",
-    "displayName": "Netherlands Antillean Guilder - (ANG)",
-    "countryName": "Sint Maarten"
+    "country": "American Samoa",
+    "capital": ["Pago Pago"],
+    "iso": { "alpha-2": "AS", "alpha-3": "ASM", "numeric": "016" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-684"],
+    "timezone": { "Pacific/Pago_Pago": "-11:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AS.svg"
   },
   {
-    "currencyName": "Angolan Kwanza",
-    "currencyCode": "AOA",
-    "displayName": "Angolan Kwanza - (AOA)",
-    "countryName": "Angola",
-    "countryCode": ["+244"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AO.svg",
-    "timezones": { "Africa/Luanda": "+01:00" },
+    "country": "Andorra",
+    "capital": ["Andorra la Vella"],
+    "iso": { "alpha-2": "AD", "alpha-3": "AND", "numeric": "020" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+376"],
+    "timezone": { "Europe/Andorra": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AD.svg"
+  },
+  {
+    "country": "Angola",
+    "capital": ["Luanda"],
     "iso": { "alpha-2": "AO", "alpha-3": "AGO", "numeric": "024" },
-    "region": "Africa"
+    "currency": { "AOA": { "name": "Angolan kwanza", "symbol": "Kz" } },
+    "dial_code": ["+244"],
+    "timezone": { "Africa/Luanda": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AO.svg"
   },
   {
-    "currencyName": "Argentine Peso",
-    "currencyCode": "ARS",
-    "displayName": "Argentine Peso - (ARS)",
-    "countryName": "Argentina",
-    "countryCode": ["+54"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg",
-    "timezones": {
+    "country": "Anguilla",
+    "capital": ["The Valley"],
+    "iso": { "alpha-2": "AI", "alpha-3": "AIA", "numeric": "660" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-264"],
+    "timezone": { "America/Anguilla": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AI.svg"
+  },
+  {
+    "country": "Antarctica",
+    "capital": [""],
+    "iso": { "alpha-2": "AQ", "alpha-3": "ATA", "numeric": "010" },
+    "dial_code": [""],
+    "currency": {
+      "": { "name": "", "symbol": "" }
+    },
+    "timezone": {
+      "Antarctica/Casey": "+11:00",
+      "Antarctica/Davis": "+07:00",
+      "Antarctica/DumontDUrville": "+10:00",
+      "Antarctica/Mawson": "+05:00",
+      "Antarctica/McMurdo": "+12:00",
+      "Antarctica/Palmer": "-03:00",
+      "Antarctica/Rothera": "-03:00",
+      "Antarctica/Syowa": "+03:00",
+      "Antarctica/Troll": "+02:00",
+      "Antarctica/Vostok": "+06:00"
+    },
+    "region": "",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AQ.svg"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "capital": ["Saint John's"],
+    "iso": { "alpha-2": "AG", "alpha-3": "ATG", "numeric": "028" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-268"],
+    "timezone": { "America/Antigua": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AG.svg"
+  },
+  {
+    "country": "Argentina",
+    "capital": ["Buenos Aires"],
+    "iso": { "alpha-2": "AR", "alpha-3": "ARG", "numeric": "032" },
+    "currency": { "ARS": { "name": "Argentine peso", "symbol": "$" } },
+    "dial_code": ["+54"],
+    "timezone": {
       "America/Argentina/Buenos_Aires": "-03:00",
       "America/Argentina/Catamarca": "-03:00",
       "America/Argentina/Cordoba": "-03:00",
@@ -81,139 +126,227 @@
       "America/Argentina/Tucuman": "-03:00",
       "America/Argentina/Ushuaia": "-03:00"
     },
-    "iso": { "alpha-2": "AR", "alpha-3": "ARG", "numeric": "032" },
-    "region": "Americas"
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg"
   },
   {
-    "currencyName": "Australian Dollar",
-    "currencyCode": "AUD",
-    "displayName": "Australian Dollar - (AUD)",
-    "countryName": "Tuvalu",
-    "countryCode": ["+688"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TV.svg",
-    "timezones": { "Pacific/Funafuti": "+12:00" },
-    "iso": { "alpha-2": "TV", "alpha-3": "TUV", "numeric": "798" },
-    "region": "Oceania"
+    "country": "Armenia",
+    "capital": ["Yerevan"],
+    "iso": { "alpha-2": "AM", "alpha-3": "ARM", "numeric": "051" },
+    "currency": { "AMD": { "name": "Armenian dram", "symbol": "֏" } },
+    "dial_code": ["+374"],
+    "timezone": { "Asia/Yerevan": "+04:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg"
   },
   {
-    "currencyName": "Aruban Florin",
-    "currencyCode": "AWG",
-    "displayName": "Aruban Florin - (AWG)",
-    "countryName": "Aruba",
-    "countryCode": ["+297"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AW.svg",
-    "timezones": { "America/Aruba": "-04:00" },
+    "country": "Aruba",
+    "capital": ["Oranjestad"],
     "iso": { "alpha-2": "AW", "alpha-3": "ABW", "numeric": "533" },
-    "region": "Americas"
+    "currency": { "AWG": { "name": "Aruban florin", "symbol": "ƒ" } },
+    "dial_code": ["+297"],
+    "timezone": { "America/Aruba": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AW.svg"
   },
   {
-    "currencyName": "Azerbaijani Manat",
-    "currencyCode": "AZN",
-    "displayName": "Azerbaijani Manat - (AZN)",
-    "countryName": "Azerbaijan",
-    "countryCode": ["+994"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AZ.svg",
-    "timezones": { "Asia/Baku": "+04:00" },
+    "country": "Australia",
+    "capital": ["Canberra"],
+    "iso": { "alpha-2": "AU", "alpha-3": "AUS", "numeric": "036" },
+    "currency": { "AUD": { "name": "Australian dollar", "symbol": "$" } },
+    "dial_code": ["+61"],
+    "timezone": {
+      "Antarctica/Macquarie": "+10:00",
+      "Australia/Adelaide": "+09:30",
+      "Australia/Brisbane": "+10:00",
+      "Australia/Broken_Hill": "+09:30",
+      "Australia/Darwin": "+09:30",
+      "Australia/Eucla": "+08:45",
+      "Australia/Hobart": "+10:00",
+      "Australia/Lindeman": "+10:00",
+      "Australia/Lord_Howe": "+10:30",
+      "Australia/Melbourne": "+10:00",
+      "Australia/Perth": "+08:00",
+      "Australia/Sydney": "+10:00"
+    },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AU.svg"
+  },
+  {
+    "country": "Austria",
+    "capital": ["Vienna"],
+    "iso": { "alpha-2": "AT", "alpha-3": "AUT", "numeric": "040" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+43"],
+    "timezone": { "Europe/Vienna": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AT.svg"
+  },
+  {
+    "country": "Azerbaijan",
+    "capital": ["Baku"],
     "iso": { "alpha-2": "AZ", "alpha-3": "AZE", "numeric": "031" },
-    "region": "Asia"
+    "currency": { "AZN": { "name": "Azerbaijani manat", "symbol": "₼" } },
+    "dial_code": ["+994"],
+    "timezone": { "Asia/Baku": "+04:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AZ.svg"
   },
   {
-    "currencyName": "Bosnia-Herzegovina Convertible Mark",
-    "currencyCode": "BAM",
-    "displayName": "Bosnia-Herzegovina Convertible Mark - (BAM)",
-    "countryName": "Bosnia and Herzegovina",
-    "countryCode": ["+387"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BA.svg",
-    "timezones": { "Europe/Sarajevo": "+02:00" },
-    "iso": { "alpha-2": "BA", "alpha-3": "BIH", "numeric": "070" },
-    "region": "Europe"
+    "country": "Bahamas",
+    "capital": ["Nassau"],
+    "iso": { "alpha-2": "BS", "alpha-3": "BHS", "numeric": "044" },
+    "currency": {
+      "BSD": { "name": "Bahamian dollar", "symbol": "$" },
+      "USD": { "name": "United States dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-242"],
+    "timezone": { "America/Nassau": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BS.svg"
   },
   {
-    "currencyName": "Barbadian Dollar",
-    "currencyCode": "BBD",
-    "displayName": "Barbadian Dollar - (BBD)",
-    "countryName": "Barbados",
-    "countryCode": ["+1-246"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BB.svg",
-    "timezones": { "America/Barbados": "-04:00" },
-    "iso": { "alpha-2": "BB", "alpha-3": "BRB", "numeric": "052" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Bangladeshi Taka",
-    "currencyCode": "BDT",
-    "displayName": "Bangladeshi Taka - (BDT)",
-    "countryName": "Bangladesh",
-    "countryCode": ["+880"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BD.svg",
-    "timezones": { "Asia/Dhaka": "+06:00" },
-    "iso": { "alpha-2": "BD", "alpha-3": "BGD", "numeric": "050" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Bulgarian Lev",
-    "currencyCode": "BGN",
-    "displayName": "Bulgarian Lev - (BGN)",
-    "countryName": "Bulgaria",
-    "countryCode": ["+359"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BG.svg",
-    "timezones": { "Europe/Sofia": "+03:00" },
-    "iso": { "alpha-2": "BG", "alpha-3": "BGR", "numeric": "100" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Bahraini Dinar",
-    "currencyCode": "BHD",
-    "displayName": "Bahraini Dinar - (BHD)",
-    "countryName": "Bahrain",
-    "countryCode": ["+973"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BH.svg",
-    "timezones": { "Asia/Bahrain": "+03:00" },
+    "country": "Bahrain",
+    "capital": ["Manama"],
     "iso": { "alpha-2": "BH", "alpha-3": "BHR", "numeric": "048" },
-    "region": "Asia"
+    "currency": { "BHD": { "name": "Bahraini dinar", "symbol": ".د.ب" } },
+    "dial_code": ["+973"],
+    "timezone": { "Asia/Bahrain": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BH.svg"
   },
   {
-    "currencyName": "Burundian Franc",
-    "currencyCode": "BIF",
-    "displayName": "Burundian Franc - (BIF)",
-    "countryName": "Burundi",
-    "countryCode": ["+257"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BI.svg",
-    "timezones": { "Africa/Bujumbura": "+02:00" },
-    "iso": { "alpha-2": "BI", "alpha-3": "BDI", "numeric": "108" },
-    "region": "Africa"
+    "country": "Bangladesh",
+    "capital": ["Dhaka"],
+    "iso": { "alpha-2": "BD", "alpha-3": "BGD", "numeric": "050" },
+    "currency": { "BDT": { "name": "Bangladeshi taka", "symbol": "৳" } },
+    "dial_code": ["+880"],
+    "timezone": { "Asia/Dhaka": "+06:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BD.svg"
   },
   {
-    "currencyName": "Bermudan Dollar",
-    "currencyCode": "BMD",
-    "displayName": "Bermudan Dollar - (BMD)",
-    "countryName": "Bermuda",
-    "countryCode": ["+1-441"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BM.svg",
-    "timezones": { "Atlantic/Bermuda": "-03:00" },
+    "country": "Barbados",
+    "capital": ["Bridgetown"],
+    "iso": { "alpha-2": "BB", "alpha-3": "BRB", "numeric": "052" },
+    "currency": { "BBD": { "name": "Barbadian dollar", "symbol": "$" } },
+    "dial_code": ["+1-246"],
+    "timezone": { "America/Barbados": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BB.svg"
+  },
+  {
+    "country": "Belarus",
+    "capital": ["Minsk"],
+    "iso": { "alpha-2": "BY", "alpha-3": "BLR", "numeric": "112" },
+    "currency": { "BYN": { "name": "Belarusian ruble", "symbol": "Br" } },
+    "dial_code": ["+375"],
+    "timezone": { "Europe/Minsk": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BY.svg"
+  },
+  {
+    "country": "Belgium",
+    "capital": ["Brussels"],
+    "iso": { "alpha-2": "BE", "alpha-3": "BEL", "numeric": "056" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+32"],
+    "timezone": { "Europe/Brussels": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BE.svg"
+  },
+  {
+    "country": "Belize",
+    "capital": ["Belmopan"],
+    "iso": { "alpha-2": "BZ", "alpha-3": "BLZ", "numeric": "084" },
+    "currency": { "BZD": { "name": "Belize dollar", "symbol": "$" } },
+    "dial_code": ["+501"],
+    "timezone": { "America/Belize": "-06:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BZ.svg"
+  },
+  {
+    "country": "Benin",
+    "capital": ["Porto-Novo"],
+    "iso": { "alpha-2": "BJ", "alpha-3": "BEN", "numeric": "204" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+229"],
+    "timezone": { "Africa/Porto-Novo": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BJ.svg"
+  },
+  {
+    "country": "Bermuda",
+    "capital": ["Hamilton"],
     "iso": { "alpha-2": "BM", "alpha-3": "BMU", "numeric": "060" },
-    "region": "Americas"
+    "currency": { "BMD": { "name": "Bermudian dollar", "symbol": "$" } },
+    "dial_code": ["+1-441"],
+    "timezone": { "Atlantic/Bermuda": "-03:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BM.svg"
   },
   {
-    "currencyName": "Brunei Dollar",
-    "currencyCode": "BND",
-    "displayName": "Brunei Dollar - (BND)",
-    "countryName": "Brunei"
+    "country": "Bhutan",
+    "capital": ["Thimphu"],
+    "iso": { "alpha-2": "BT", "alpha-3": "BTN", "numeric": "064" },
+    "currency": {
+      "BTN": { "name": "Bhutanese ngultrum", "symbol": "Nu." },
+      "INR": { "name": "Indian rupee", "symbol": "₹" }
+    },
+    "dial_code": ["+975"],
+    "timezone": { "Asia/Thimphu": "+06:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BT.svg"
   },
   {
-    "currencyName": "Bolivian Boliviano",
-    "currencyCode": "BOB",
-    "displayName": "Bolivian Boliviano - (BOB)",
-    "countryName": "Bolivia"
+    "country": "Bolivia, Plurinational State of",
+    "capital": ["Sucre"],
+    "iso": { "alpha-2": "BO", "alpha-3": "BOL", "numeric": "068" },
+    "currency": { "BOB": { "name": "Bolivian boliviano", "symbol": "Bs." } },
+    "dial_code": ["+591"],
+    "timezone": { "America/La_Paz": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BO.svg"
   },
   {
-    "currencyName": "Brazilian Real",
-    "currencyCode": "BRL",
-    "displayName": "Brazilian Real - (BRL)",
-    "countryName": "Brazil",
-    "countryCode": ["+55"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BR.svg",
-    "timezones": {
+    "country": "Bonaire, Sint Eustatius and Saba",
+    "capital": ["Kralendijk"],
+    "iso": { "alpha-2": "BQ", "alpha-3": "BES", "numeric": "535" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+599"],
+    "timezone": { "America/Kralendijk": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BQ.svg"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "capital": ["Sarajevo"],
+    "iso": { "alpha-2": "BA", "alpha-3": "BIH", "numeric": "070" },
+    "currency": {
+      "BAM": { "name": "Bosnia and Herzegovina convertible mark" }
+    },
+    "dial_code": ["+387"],
+    "timezone": { "Europe/Sarajevo": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BA.svg"
+  },
+  {
+    "country": "Botswana",
+    "capital": ["Gaborone"],
+    "iso": { "alpha-2": "BW", "alpha-3": "BWA", "numeric": "072" },
+    "currency": { "BWP": { "name": "Botswana pula", "symbol": "P" } },
+    "dial_code": ["+267"],
+    "timezone": { "Africa/Gaborone": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BW.svg"
+  },
+  {
+    "country": "Brazil",
+    "capital": ["Brasília"],
+    "iso": { "alpha-2": "BR", "alpha-3": "BRA", "numeric": "076" },
+    "currency": { "BRL": { "name": "Brazilian real", "symbol": "R$" } },
+    "dial_code": ["+55"],
+    "timezone": {
       "America/Araguaina": "-03:00",
       "America/Bahia": "-03:00",
       "America/Belem": "-03:00",
@@ -231,72 +364,94 @@
       "America/Santarem": "-03:00",
       "America/Sao_Paulo": "-03:00"
     },
-    "iso": { "alpha-2": "BR", "alpha-3": "BRA", "numeric": "076" },
-    "region": "Americas"
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BR.svg"
   },
   {
-    "currencyName": "Bahamian Dollar",
-    "currencyCode": "BSD",
-    "displayName": "Bahamian Dollar - (BSD)",
-    "countryName": "Bahamas",
-    "countryCode": ["+1-242"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BS.svg",
-    "timezones": { "America/Nassau": "-04:00" },
-    "iso": { "alpha-2": "BS", "alpha-3": "BHS", "numeric": "044" },
-    "region": "Americas"
+    "country": "British Indian Ocean Territory",
+    "capital": ["Diego Garcia"],
+    "iso": { "alpha-2": "IO", "alpha-3": "IOT", "numeric": "086" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+246"],
+    "timezone": { "Indian/Chagos": "+06:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IO.svg"
   },
   {
-    "currencyName": "Bhutanese Ngultrum",
-    "currencyCode": "BTN",
-    "displayName": "Bhutanese Ngultrum - (BTN)",
-    "countryName": "Bhutan",
-    "countryCode": ["+975"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BT.svg",
-    "timezones": { "Asia/Thimphu": "+06:00" },
-    "iso": { "alpha-2": "BT", "alpha-3": "BTN", "numeric": "064" },
-    "region": "Asia"
+    "country": "Brunei Darussalam",
+    "capital": ["Bandar Seri Begawan"],
+    "iso": { "alpha-2": "BN", "alpha-3": "BRN", "numeric": "096" },
+    "currency": {
+      "BND": { "name": "Brunei dollar", "symbol": "$" },
+      "SGD": { "name": "Singapore dollar", "symbol": "$" }
+    },
+    "dial_code": ["+673"],
+    "timezone": { "Asia/Brunei": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BN.svg"
   },
   {
-    "currencyName": "Botswanan Pula",
-    "currencyCode": "BWP",
-    "displayName": "Botswanan Pula - (BWP)",
-    "countryName": "Botswana",
-    "countryCode": ["+267"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BW.svg",
-    "timezones": { "Africa/Gaborone": "+02:00" },
-    "iso": { "alpha-2": "BW", "alpha-3": "BWA", "numeric": "072" },
-    "region": "Africa"
+    "country": "Bulgaria",
+    "capital": ["Sofia"],
+    "iso": { "alpha-2": "BG", "alpha-3": "BGR", "numeric": "100" },
+    "currency": { "BGN": { "name": "Bulgarian lev", "symbol": "лв" } },
+    "dial_code": ["+359"],
+    "timezone": { "Europe/Sofia": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BG.svg"
   },
   {
-    "currencyName": "Belarusian Ruble",
-    "currencyCode": "BYN",
-    "displayName": "Belarusian Ruble - (BYN)",
-    "countryName": "Belarus",
-    "countryCode": ["+375"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BY.svg",
-    "timezones": { "Europe/Minsk": "+03:00" },
-    "iso": { "alpha-2": "BY", "alpha-3": "BLR", "numeric": "112" },
-    "region": "Europe"
+    "country": "Burkina Faso",
+    "capital": ["Ouagadougou"],
+    "iso": { "alpha-2": "BF", "alpha-3": "BFA", "numeric": "854" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+226"],
+    "timezone": { "Africa/Ouagadougou": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BF.svg"
   },
   {
-    "currencyName": "Belize Dollar",
-    "currencyCode": "BZD",
-    "displayName": "Belize Dollar - (BZD)",
-    "countryName": "Belize",
-    "countryCode": ["+501"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BZ.svg",
-    "timezones": { "America/Belize": "-06:00" },
-    "iso": { "alpha-2": "BZ", "alpha-3": "BLZ", "numeric": "084" },
-    "region": "Americas"
+    "country": "Burundi",
+    "capital": ["Gitega"],
+    "iso": { "alpha-2": "BI", "alpha-3": "BDI", "numeric": "108" },
+    "currency": { "BIF": { "name": "Burundian franc", "symbol": "Fr" } },
+    "dial_code": ["+257"],
+    "timezone": { "Africa/Bujumbura": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BI.svg"
   },
   {
-    "currencyName": "Canadian Dollar",
-    "currencyCode": "CAD",
-    "displayName": "Canadian Dollar - (CAD)",
-    "countryName": "Canada",
-    "countryCode": ["+1"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CA.svg",
-    "timezones": {
+    "country": "Cambodia",
+    "capital": ["Phnom Penh"],
+    "iso": { "alpha-2": "KH", "alpha-3": "KHM", "numeric": "116" },
+    "currency": {
+      "KHR": { "name": "Cambodian riel", "symbol": "៛" },
+      "USD": { "name": "United States dollar", "symbol": "$" }
+    },
+    "dial_code": ["+855"],
+    "timezone": { "Asia/Phnom_Penh": "+07:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KH.svg"
+  },
+  {
+    "country": "Cameroon",
+    "capital": ["Yaoundé"],
+    "iso": { "alpha-2": "CM", "alpha-3": "CMR", "numeric": "120" },
+    "currency": {
+      "XAF": { "name": "Central African CFA franc", "symbol": "Fr" }
+    },
+    "dial_code": ["+237"],
+    "timezone": { "Africa/Douala": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CM.svg"
+  },
+  {
+    "country": "Canada",
+    "capital": ["Ottawa"],
+    "iso": { "alpha-2": "CA", "alpha-3": "CAN", "numeric": "124" },
+    "currency": { "CAD": { "name": "Canadian dollar", "symbol": "$" } },
+    "dial_code": ["+1"],
+    "timezone": {
       "America/Atikokan": "-05:00",
       "America/Blanc-Sablon": "-04:00",
       "America/Cambridge_Bay": "-06:00",
@@ -321,568 +476,811 @@
       "America/Whitehorse": "-07:00",
       "America/Winnipeg": "-05:00"
     },
-    "iso": { "alpha-2": "CA", "alpha-3": "CAN", "numeric": "124" },
-    "region": "Americas"
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CA.svg"
   },
   {
-    "currencyName": "Congolese Franc",
-    "currencyCode": "CDF",
-    "displayName": "Congolese Franc - (CDF)",
-    "countryName": "Democratic Republic of the Congo"
+    "country": "Cape Verde",
+    "capital": ["Praia"],
+    "iso": { "alpha-2": "CV", "alpha-3": "CPV", "numeric": "132" },
+    "currency": { "CVE": { "name": "Cape Verdean escudo", "symbol": "Esc" } },
+    "dial_code": ["+238"],
+    "timezone": { "Atlantic/Cape_Verde": "-01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CV.svg"
   },
   {
-    "currencyName": "Swiss Franc",
-    "currencyCode": "CHF",
-    "displayName": "Swiss Franc - (CHF)",
-    "countryName": "Liechtenstein",
-    "countryCode": ["+423"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LI.svg",
-    "timezones": { "Europe/Vaduz": "+02:00" },
-    "iso": { "alpha-2": "LI", "alpha-3": "LIE", "numeric": "438" },
-    "region": "Europe"
+    "country": "Cayman Islands",
+    "capital": ["George Town"],
+    "iso": { "alpha-2": "KY", "alpha-3": "CYM", "numeric": "136" },
+    "currency": { "KYD": { "name": "Cayman Islands dollar", "symbol": "$" } },
+    "dial_code": ["+1-345"],
+    "timezone": { "America/Cayman": "-05:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KY.svg"
   },
   {
-    "currencyName": "Chilean Peso",
-    "currencyCode": "CLP",
-    "displayName": "Chilean Peso - (CLP)",
-    "countryName": "Chile",
-    "countryCode": ["+56"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CL.svg",
-    "timezones": {
+    "country": "Central African Republic",
+    "capital": ["Bangui"],
+    "iso": { "alpha-2": "CF", "alpha-3": "CAF", "numeric": "140" },
+    "currency": {
+      "XAF": { "name": "Central African CFA franc", "symbol": "Fr" }
+    },
+    "dial_code": ["+236"],
+    "timezone": { "Africa/Bangui": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CF.svg"
+  },
+  {
+    "country": "Chad",
+    "capital": ["N'Djamena"],
+    "iso": { "alpha-2": "TD", "alpha-3": "TCD", "numeric": "148" },
+    "currency": {
+      "XAF": { "name": "Central African CFA franc", "symbol": "Fr" }
+    },
+    "dial_code": ["+235"],
+    "timezone": { "Africa/Ndjamena": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TD.svg"
+  },
+  {
+    "country": "Chile",
+    "capital": ["Santiago"],
+    "iso": { "alpha-2": "CL", "alpha-3": "CHL", "numeric": "152" },
+    "currency": { "CLP": { "name": "Chilean peso", "symbol": "$" } },
+    "dial_code": ["+56"],
+    "timezone": {
       "America/Punta_Arenas": "-03:00",
       "America/Santiago": "-04:00",
       "Pacific/Easter": "-06:00"
     },
-    "iso": { "alpha-2": "CL", "alpha-3": "CHL", "numeric": "152" },
-    "region": "Americas"
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CL.svg"
   },
   {
-    "currencyName": "Chinese Yuan",
-    "currencyCode": "CNY",
-    "displayName": "Chinese Yuan - (CNY)",
-    "countryName": "China",
-    "countryCode": ["+86"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CN.svg",
-    "timezones": { "Asia/Shanghai": "+08:00", "Asia/Urumqi": "+06:00" },
+    "country": "China",
+    "capital": ["Beijing"],
     "iso": { "alpha-2": "CN", "alpha-3": "CHN", "numeric": "156" },
-    "region": "Asia"
+    "currency": { "CNY": { "name": "Chinese yuan", "symbol": "¥" } },
+    "dial_code": ["+86"],
+    "timezone": { "Asia/Shanghai": "+08:00", "Asia/Urumqi": "+06:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CN.svg"
   },
   {
-    "currencyName": "Colombian Peso",
-    "currencyCode": "COP",
-    "displayName": "Colombian Peso - (COP)",
-    "countryName": "Colombia",
-    "countryCode": ["+57"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CO.svg",
-    "timezones": { "America/Bogota": "-05:00" },
+    "country": "Christmas Island",
+    "capital": ["Flying Fish Cove"],
+    "iso": { "alpha-2": "CX", "alpha-3": "CXR", "numeric": "162" },
+    "currency": { "AUD": { "name": "Australian dollar", "symbol": "$" } },
+    "dial_code": ["+61"],
+    "timezone": { "Indian/Christmas": "+07:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CX.svg"
+  },
+  {
+    "country": "Cocos (Keeling) Islands",
+    "capital": ["West Island"],
+    "iso": { "alpha-2": "CC", "alpha-3": "CCK", "numeric": "166" },
+    "currency": { "AUD": { "name": "Australian dollar", "symbol": "$" } },
+    "dial_code": ["+61"],
+    "timezone": { "Indian/Cocos": "+06:30" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CC.svg"
+  },
+  {
+    "country": "Colombia",
+    "capital": ["Bogotá"],
     "iso": { "alpha-2": "CO", "alpha-3": "COL", "numeric": "170" },
-    "region": "Americas"
+    "currency": { "COP": { "name": "Colombian peso", "symbol": "$" } },
+    "dial_code": ["+57"],
+    "timezone": { "America/Bogota": "-05:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CO.svg"
   },
   {
-    "currencyName": "Costa Rican Colón",
-    "currencyCode": "CRC",
-    "displayName": "Costa Rican Colón - (CRC)",
-    "countryName": "Costa Rica",
-    "countryCode": ["+506"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CR.svg",
-    "timezones": { "America/Costa_Rica": "-06:00" },
+    "country": "Comoros",
+    "capital": ["Moroni"],
+    "iso": { "alpha-2": "KM", "alpha-3": "COM", "numeric": "174" },
+    "currency": { "KMF": { "name": "Comorian franc", "symbol": "Fr" } },
+    "dial_code": ["+269"],
+    "timezone": { "Indian/Comoro": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KM.svg"
+  },
+  {
+    "country": "Congo",
+    "capital": ["Brazzaville"],
+    "iso": { "alpha-2": "CG", "alpha-3": "COG", "numeric": "178" },
+    "currency": {
+      "XAF": { "name": "Central African CFA franc", "symbol": "Fr" }
+    },
+    "dial_code": ["+242"],
+    "timezone": { "Africa/Brazzaville": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CG.svg"
+  },
+  {
+    "country": "Congo, the Democratic Republic of the",
+    "capital": ["Kinshasa"],
+    "iso": { "alpha-2": "CD", "alpha-3": "COD", "numeric": "180" },
+    "currency": { "CDF": { "name": "Congolese franc", "symbol": "FC" } },
+    "dial_code": ["+243"],
+    "timezone": { "Africa/Kinshasa": "+01:00", "Africa/Lubumbashi": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CD.svg"
+  },
+  {
+    "country": "Cook Islands",
+    "capital": ["Avarua"],
+    "iso": { "alpha-2": "CK", "alpha-3": "COK", "numeric": "184" },
+    "currency": {
+      "CKD": { "name": "Cook Islands dollar", "symbol": "$" },
+      "NZD": { "name": "New Zealand dollar", "symbol": "$" }
+    },
+    "dial_code": ["+682"],
+    "timezone": { "Pacific/Rarotonga": "-10:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CK.svg"
+  },
+  {
+    "country": "Costa Rica",
+    "capital": ["San José"],
     "iso": { "alpha-2": "CR", "alpha-3": "CRI", "numeric": "188" },
-    "region": "Americas"
+    "currency": { "CRC": { "name": "Costa Rican colón", "symbol": "₡" } },
+    "dial_code": ["+506"],
+    "timezone": { "America/Costa_Rica": "-06:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CR.svg"
   },
   {
-    "currencyName": "Cuban Peso",
-    "currencyCode": "CUP",
-    "displayName": "Cuban Peso - (CUP)",
-    "countryName": "Cuba",
-    "countryCode": ["+53"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CU.svg",
-    "timezones": { "America/Havana": "-04:00" },
+    "country": "Croatia",
+    "capital": ["Zagreb"],
+    "iso": { "alpha-2": "HR", "alpha-3": "HRV", "numeric": "191" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+385"],
+    "timezone": { "Europe/Zagreb": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HR.svg"
+  },
+  {
+    "country": "Cuba",
+    "capital": ["Havana"],
     "iso": { "alpha-2": "CU", "alpha-3": "CUB", "numeric": "192" },
-    "region": "Americas"
+    "currency": {
+      "CUC": { "name": "Cuban convertible peso", "symbol": "$" },
+      "CUP": { "name": "Cuban peso", "symbol": "$" }
+    },
+    "dial_code": ["+53"],
+    "timezone": { "America/Havana": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CU.svg"
   },
   {
-    "currencyName": "Cape Verdean Escudo",
-    "currencyCode": "CVE",
-    "displayName": "Cape Verdean Escudo - (CVE)",
-    "countryName": "Cape Verde",
-    "countryCode": ["+238"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CV.svg",
-    "timezones": { "Atlantic/Cape_Verde": "-01:00" },
-    "iso": { "alpha-2": "CV", "alpha-3": "CPV", "numeric": "132" },
-    "region": "Africa"
+    "country": "Curaçao",
+    "capital": ["Willemstad"],
+    "iso": { "alpha-2": "CW", "alpha-3": "CUW", "numeric": "531" },
+    "currency": {
+      "ANG": { "name": "Netherlands Antillean guilder", "symbol": "ƒ" }
+    },
+    "dial_code": ["+599"],
+    "timezone": { "America/Curacao": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CW.svg"
   },
   {
-    "currencyName": "Czech Republic Koruna",
-    "currencyCode": "CZK",
-    "displayName": "Czech Republic Koruna - (CZK)",
-    "countryName": "Czechia"
+    "country": "Cyprus",
+    "capital": ["Nicosia"],
+    "iso": { "alpha-2": "CY", "alpha-3": "CYP", "numeric": "196" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+357"],
+    "timezone": { "Asia/Famagusta": "+03:00", "Asia/Nicosia": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CY.svg"
   },
   {
-    "currencyName": "Djiboutian Franc",
-    "currencyCode": "DJF",
-    "displayName": "Djiboutian Franc - (DJF)",
-    "countryName": "Djibouti",
-    "countryCode": ["+253"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DJ.svg",
-    "timezones": { "Africa/Djibouti": "+03:00" },
+    "country": "Czech Republic",
+    "capital": ["Prague"],
+    "iso": { "alpha-2": "CZ", "alpha-3": "CZE", "numeric": "203" },
+    "currency": { "CZK": { "name": "Czech koruna", "symbol": "Kč" } },
+    "dial_code": ["+420"],
+    "timezone": { "Europe/Prague": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CZ.svg"
+  },
+  {
+    "country": "Côte d'Ivoire",
+    "capital": ["Yamoussoukro"],
+    "iso": { "alpha-2": "CI", "alpha-3": "CIV", "numeric": "384" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+225"],
+    "timezone": { "Africa/Abidjan": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CI.svg"
+  },
+  {
+    "country": "Denmark",
+    "capital": ["Copenhagen"],
+    "iso": { "alpha-2": "DK", "alpha-3": "DNK", "numeric": "208" },
+    "currency": { "DKK": { "name": "Danish krone", "symbol": "kr" } },
+    "dial_code": ["+45"],
+    "timezone": { "Europe/Copenhagen": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DK.svg"
+  },
+  {
+    "country": "Djibouti",
+    "capital": ["Djibouti"],
     "iso": { "alpha-2": "DJ", "alpha-3": "DJI", "numeric": "262" },
-    "region": "Africa"
+    "currency": { "DJF": { "name": "Djiboutian franc", "symbol": "Fr" } },
+    "dial_code": ["+253"],
+    "timezone": { "Africa/Djibouti": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DJ.svg"
   },
   {
-    "currencyName": "Danish Krone",
-    "currencyCode": "DKK",
-    "displayName": "Danish Krone - (DKK)",
-    "countryName": "Greenland",
-    "countryCode": ["+299"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GL.svg",
-    "timezones": {
+    "country": "Dominica",
+    "capital": ["Roseau"],
+    "iso": { "alpha-2": "DM", "alpha-3": "DMA", "numeric": "212" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-767"],
+    "timezone": { "America/Dominica": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DM.svg"
+  },
+  {
+    "country": "Dominican Republic",
+    "capital": ["Santo Domingo"],
+    "iso": { "alpha-2": "DO", "alpha-3": "DOM", "numeric": "214" },
+    "currency": { "DOP": { "name": "Dominican peso", "symbol": "$" } },
+    "dial_code": ["+1-809"],
+    "timezone": { "America/Santo_Domingo": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DO.svg"
+  },
+  {
+    "country": "Dominican Republic",
+    "capital": ["Santo Domingo"],
+    "iso": { "alpha-2": "DO", "alpha-3": "DOM", "numeric": "214" },
+    "currency": { "DOP": { "name": "Dominican peso", "symbol": "$" } },
+    "dial_code": ["+1-829"],
+    "timezone": { "America/Santo_Domingo": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DO.svg"
+  },
+  {
+    "country": "Ecuador",
+    "capital": ["Quito"],
+    "iso": { "alpha-2": "EC", "alpha-3": "ECU", "numeric": "218" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+593"],
+    "timezone": {
+      "America/Guayaquil": "-05:00",
+      "Pacific/Galapagos": "-06:00"
+    },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EC.svg"
+  },
+  {
+    "country": "Egypt",
+    "capital": ["Cairo"],
+    "iso": { "alpha-2": "EG", "alpha-3": "EGY", "numeric": "818" },
+    "currency": { "EGP": { "name": "Egyptian pound", "symbol": "£" } },
+    "dial_code": ["+20"],
+    "timezone": { "Africa/Cairo": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EG.svg"
+  },
+  {
+    "country": "El Salvador",
+    "capital": ["San Salvador"],
+    "iso": { "alpha-2": "SV", "alpha-3": "SLV", "numeric": "222" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+503"],
+    "timezone": { "America/El_Salvador": "-06:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SV.svg"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "capital": ["Malabo"],
+    "iso": { "alpha-2": "GQ", "alpha-3": "GNQ", "numeric": "226" },
+    "currency": {
+      "XAF": { "name": "Central African CFA franc", "symbol": "Fr" }
+    },
+    "dial_code": ["+240"],
+    "timezone": { "Africa/Malabo": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GQ.svg"
+  },
+  {
+    "country": "Eritrea",
+    "capital": ["Asmara"],
+    "iso": { "alpha-2": "ER", "alpha-3": "ERI", "numeric": "232" },
+    "currency": { "ERN": { "name": "Eritrean nakfa", "symbol": "Nfk" } },
+    "dial_code": ["+291"],
+    "timezone": { "Africa/Asmara": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ER.svg"
+  },
+  {
+    "country": "Estonia",
+    "capital": ["Tallinn"],
+    "iso": { "alpha-2": "EE", "alpha-3": "EST", "numeric": "233" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+372"],
+    "timezone": { "Europe/Tallinn": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EE.svg"
+  },
+  {
+    "country": "Ethiopia",
+    "capital": ["Addis Ababa"],
+    "iso": { "alpha-2": "ET", "alpha-3": "ETH", "numeric": "231" },
+    "currency": { "ETB": { "name": "Ethiopian birr", "symbol": "Br" } },
+    "dial_code": ["+251"],
+    "timezone": { "Africa/Addis_Ababa": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ET.svg"
+  },
+  {
+    "country": "Falkland Islands (Malvinas)",
+    "capital": ["Stanley"],
+    "iso": { "alpha-2": "FK", "alpha-3": "FLK", "numeric": "238" },
+    "currency": { "FKP": { "name": "Falkland Islands pound", "symbol": "£" } },
+    "dial_code": ["+500"],
+    "timezone": { "Atlantic/Stanley": "-03:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FK.svg"
+  },
+  {
+    "country": "Faroe Islands",
+    "capital": ["Tórshavn"],
+    "iso": { "alpha-2": "FO", "alpha-3": "FRO", "numeric": "234" },
+    "currency": {
+      "DKK": { "name": "Danish krone", "symbol": "kr" },
+      "FOK": { "name": "Faroese króna", "symbol": "kr" }
+    },
+    "dial_code": ["+298"],
+    "timezone": { "Atlantic/Faroe": "+01:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FO.svg"
+  },
+  {
+    "country": "Fiji",
+    "capital": ["Suva"],
+    "iso": { "alpha-2": "FJ", "alpha-3": "FJI", "numeric": "242" },
+    "currency": { "FJD": { "name": "Fijian dollar", "symbol": "$" } },
+    "dial_code": ["+679"],
+    "timezone": { "Pacific/Fiji": "+12:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FJ.svg"
+  },
+  {
+    "country": "Finland",
+    "capital": ["Helsinki"],
+    "iso": { "alpha-2": "FI", "alpha-3": "FIN", "numeric": "246" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+358"],
+    "timezone": { "Europe/Helsinki": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FI.svg"
+  },
+  {
+    "country": "France",
+    "capital": ["Paris"],
+    "iso": { "alpha-2": "FR", "alpha-3": "FRA", "numeric": "250" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+33"],
+    "timezone": { "Europe/Paris": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FR.svg"
+  },
+  {
+    "country": "French Guiana",
+    "capital": ["Cayenne"],
+    "iso": { "alpha-2": "GF", "alpha-3": "GUF", "numeric": "254" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+594"],
+    "timezone": { "America/Cayenne": "-03:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GF.svg"
+  },
+  {
+    "country": "French Polynesia",
+    "capital": ["Papeetē"],
+    "iso": { "alpha-2": "PF", "alpha-3": "PYF", "numeric": "258" },
+    "currency": { "XPF": { "name": "CFP franc", "symbol": "₣" } },
+    "dial_code": ["+689"],
+    "timezone": {
+      "Pacific/Gambier": "-09:00",
+      "Pacific/Marquesas": "-09:30",
+      "Pacific/Tahiti": "-10:00"
+    },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PF.svg"
+  },
+  {
+    "country": "French Southern Territories",
+    "capital": ["Port-aux-Français"],
+    "iso": { "alpha-2": "TF", "alpha-3": "ATF", "numeric": "260" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+"],
+    "timezone": { "Indian/Kerguelen": "+05:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TF.svg"
+  },
+  {
+    "country": "Gabon",
+    "capital": ["Libreville"],
+    "iso": { "alpha-2": "GA", "alpha-3": "GAB", "numeric": "266" },
+    "currency": {
+      "XAF": { "name": "Central African CFA franc", "symbol": "Fr" }
+    },
+    "dial_code": ["+241"],
+    "timezone": { "Africa/Libreville": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GA.svg"
+  },
+  {
+    "country": "Gambia",
+    "capital": ["Banjul"],
+    "iso": { "alpha-2": "GM", "alpha-3": "GMB", "numeric": "270" },
+    "currency": { "GMD": { "name": "dalasi", "symbol": "D" } },
+    "dial_code": ["+220"],
+    "timezone": { "Africa/Banjul": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GM.svg"
+  },
+  {
+    "country": "Georgia",
+    "capital": ["Tbilisi"],
+    "iso": { "alpha-2": "GE", "alpha-3": "GEO", "numeric": "268" },
+    "currency": { "GEL": { "name": "lari", "symbol": "₾" } },
+    "dial_code": ["+995"],
+    "timezone": { "Asia/Tbilisi": "+04:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg"
+  },
+  {
+    "country": "Germany",
+    "capital": ["Berlin"],
+    "iso": { "alpha-2": "DE", "alpha-3": "DEU", "numeric": "276" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+49"],
+    "timezone": { "Europe/Berlin": "+02:00", "Europe/Busingen": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DE.svg"
+  },
+  {
+    "country": "Ghana",
+    "capital": ["Accra"],
+    "iso": { "alpha-2": "GH", "alpha-3": "GHA", "numeric": "288" },
+    "currency": { "GHS": { "name": "Ghanaian cedi", "symbol": "₵" } },
+    "dial_code": ["+233"],
+    "timezone": { "Africa/Accra": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GH.svg"
+  },
+  {
+    "country": "Gibraltar",
+    "capital": ["Gibraltar"],
+    "iso": { "alpha-2": "GI", "alpha-3": "GIB", "numeric": "292" },
+    "currency": { "GIP": { "name": "Gibraltar pound", "symbol": "£" } },
+    "dial_code": ["+350"],
+    "timezone": { "Europe/Gibraltar": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GI.svg"
+  },
+  {
+    "country": "Greece",
+    "capital": ["Athens"],
+    "iso": { "alpha-2": "GR", "alpha-3": "GRC", "numeric": "300" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+30"],
+    "timezone": { "Europe/Athens": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GR.svg"
+  },
+  {
+    "country": "Greenland",
+    "capital": ["Nuuk"],
+    "iso": { "alpha-2": "GL", "alpha-3": "GRL", "numeric": "304" },
+    "currency": { "DKK": { "name": "krone", "symbol": "kr." } },
+    "dial_code": ["+299"],
+    "timezone": {
       "America/Danmarkshavn": "+00:00",
       "America/Nuuk": "-02:00",
       "America/Scoresbysund": "+00:00",
       "America/Thule": "-03:00"
     },
-    "iso": { "alpha-2": "GL", "alpha-3": "GRL", "numeric": "304" },
-    "region": "Americas"
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GL.svg"
   },
   {
-    "currencyName": "Dominican Peso",
-    "currencyCode": "DOP",
-    "displayName": "Dominican Peso - (DOP)",
-    "countryName": "Dominican Republic",
-    "countryCode": ["+1-809", "+1-829"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DO.svg",
-    "timezones": { "America/Santo_Domingo": "-04:00" },
-    "iso": { "alpha-2": "DO", "alpha-3": "DOM", "numeric": "214" },
-    "region": "Americas"
+    "country": "Grenada",
+    "capital": ["St. George's"],
+    "iso": { "alpha-2": "GD", "alpha-3": "GRD", "numeric": "308" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-473"],
+    "timezone": { "America/Grenada": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GD.svg"
   },
   {
-    "currencyName": "Algerian Dinar",
-    "currencyCode": "DZD",
-    "displayName": "Algerian Dinar - (DZD)",
-    "countryName": "Algeria",
-    "countryCode": ["+213"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/DZ.svg",
-    "timezones": { "Africa/Algiers": "+01:00" },
-    "iso": { "alpha-2": "DZ", "alpha-3": "DZA", "numeric": "012" },
-    "region": "Africa"
+    "country": "Guadeloupe",
+    "capital": ["Basse-Terre"],
+    "iso": { "alpha-2": "GP", "alpha-3": "GLP", "numeric": "312" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+590"],
+    "timezone": { "America/Guadeloupe": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GP.svg"
   },
   {
-    "currencyName": "Egyptian Pound",
-    "currencyCode": "EGP",
-    "displayName": "Egyptian Pound - (EGP)",
-    "countryName": "Egypt",
-    "countryCode": ["+20"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/EG.svg",
-    "timezones": { "Africa/Cairo": "+02:00" },
-    "iso": { "alpha-2": "EG", "alpha-3": "EGY", "numeric": "818" },
-    "region": "Africa"
+    "country": "Guam",
+    "capital": ["Hagåtña"],
+    "iso": { "alpha-2": "GU", "alpha-3": "GUM", "numeric": "316" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-671"],
+    "timezone": { "Pacific/Guam": "+10:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GU.svg"
   },
   {
-    "currencyName": "Eritrean Nakfa",
-    "currencyCode": "ERN",
-    "displayName": "Eritrean Nakfa - (ERN)",
-    "countryName": "Eritrea",
-    "countryCode": ["+291"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ER.svg",
-    "timezones": { "Africa/Asmara": "+03:00" },
-    "iso": { "alpha-2": "ER", "alpha-3": "ERI", "numeric": "232" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Ethiopian Birr",
-    "currencyCode": "ETB",
-    "displayName": "Ethiopian Birr - (ETB)",
-    "countryName": "Ethiopia",
-    "countryCode": ["+251"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ET.svg",
-    "timezones": { "Africa/Addis_Ababa": "+03:00" },
-    "iso": { "alpha-2": "ET", "alpha-3": "ETH", "numeric": "231" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Euro",
-    "currencyCode": "EUR",
-    "displayName": "Euro - (EUR)",
-    "countryName": "Mayotte",
-    "countryCode": ["+262"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YT.svg",
-    "timezones": { "Indian/Mayotte": "+03:00" },
-    "iso": { "alpha-2": "YT", "alpha-3": "MYT", "numeric": "175" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Fijian Dollar",
-    "currencyCode": "FJD",
-    "displayName": "Fijian Dollar - (FJD)",
-    "countryName": "Fiji",
-    "countryCode": ["+679"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FJ.svg",
-    "timezones": { "Pacific/Fiji": "+12:00" },
-    "iso": { "alpha-2": "FJ", "alpha-3": "FJI", "numeric": "242" },
-    "region": "Oceania"
-  },
-  {
-    "currencyName": "Falkland Islands Pound",
-    "currencyCode": "FKP",
-    "displayName": "Falkland Islands Pound - (FKP)",
-    "countryName": "Falkland Islands"
-  },
-  {
-    "currencyName": "British Pound Sterling",
-    "currencyCode": "GBP",
-    "displayName": "British Pound Sterling - (GBP)",
-    "countryName": "South Georgia and the South Sandwich Islands",
-    "countryCode": ["+"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GS.svg",
-    "timezones": { "Atlantic/South_Georgia": "-02:00" },
-    "iso": { "alpha-2": "GS", "alpha-3": "SGS", "numeric": "239" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Georgian Lari",
-    "currencyCode": "GEL",
-    "displayName": "Georgian Lari - (GEL)",
-    "countryName": "Georgia",
-    "countryCode": ["+995"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GE.svg",
-    "timezones": { "Asia/Tbilisi": "+04:00" },
-    "iso": { "alpha-2": "GE", "alpha-3": "GEO", "numeric": "268" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Guernsey Pound",
-    "currencyCode": "GGP",
-    "displayName": "Guernsey Pound - (GGP)",
-    "countryName": "Guernsey",
-    "countryCode": ["+44-1481"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GG.svg",
-    "timezones": { "Europe/Guernsey": "+01:00" },
-    "iso": { "alpha-2": "GG", "alpha-3": "GGY", "numeric": "831" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Ghanaian Cedi",
-    "currencyCode": "GHS",
-    "displayName": "Ghanaian Cedi - (GHS)",
-    "countryName": "Ghana",
-    "countryCode": ["+233"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GH.svg",
-    "timezones": { "Africa/Accra": "+00:00" },
-    "iso": { "alpha-2": "GH", "alpha-3": "GHA", "numeric": "288" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Gibraltar Pound",
-    "currencyCode": "GIP",
-    "displayName": "Gibraltar Pound - (GIP)",
-    "countryName": "Gibraltar",
-    "countryCode": ["+350"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GI.svg",
-    "timezones": { "Europe/Gibraltar": "+02:00" },
-    "iso": { "alpha-2": "GI", "alpha-3": "GIB", "numeric": "292" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Gambian Dalasi",
-    "currencyCode": "GMD",
-    "displayName": "Gambian Dalasi - (GMD)",
-    "countryName": "Gambia",
-    "countryCode": ["+220"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GM.svg",
-    "timezones": { "Africa/Banjul": "+00:00" },
-    "iso": { "alpha-2": "GM", "alpha-3": "GMB", "numeric": "270" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Guinean Franc",
-    "currencyCode": "GNF",
-    "displayName": "Guinean Franc - (GNF)",
-    "countryName": "Guinea",
-    "countryCode": ["+224"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GN.svg",
-    "timezones": { "Africa/Conakry": "+00:00" },
-    "iso": { "alpha-2": "GN", "alpha-3": "GIN", "numeric": "324" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Guatemalan Quetzal",
-    "currencyCode": "GTQ",
-    "displayName": "Guatemalan Quetzal - (GTQ)",
-    "countryName": "Guatemala",
-    "countryCode": ["+502"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GT.svg",
-    "timezones": { "America/Guatemala": "-06:00" },
+    "country": "Guatemala",
+    "capital": ["Guatemala City"],
     "iso": { "alpha-2": "GT", "alpha-3": "GTM", "numeric": "320" },
-    "region": "Americas"
+    "currency": { "GTQ": { "name": "Guatemalan quetzal", "symbol": "Q" } },
+    "dial_code": ["+502"],
+    "timezone": { "America/Guatemala": "-06:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GT.svg"
   },
   {
-    "currencyName": "Guyanaese Dollar",
-    "currencyCode": "GYD",
-    "displayName": "Guyanaese Dollar - (GYD)",
-    "countryName": "Guyana",
-    "countryCode": ["+592"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GY.svg",
-    "timezones": { "America/Guyana": "-04:00" },
+    "country": "Guernsey",
+    "capital": ["St. Peter Port"],
+    "iso": { "alpha-2": "GG", "alpha-3": "GGY", "numeric": "831" },
+    "currency": {
+      "GBP": { "name": "British pound", "symbol": "£" },
+      "GGP": { "name": "Guernsey pound", "symbol": "£" }
+    },
+    "dial_code": ["+44-1481"],
+    "timezone": { "Europe/Guernsey": "+01:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GG.svg"
+  },
+  {
+    "country": "Guinea",
+    "capital": ["Conakry"],
+    "iso": { "alpha-2": "GN", "alpha-3": "GIN", "numeric": "324" },
+    "currency": { "GNF": { "name": "Guinean franc", "symbol": "Fr" } },
+    "dial_code": ["+224"],
+    "timezone": { "Africa/Conakry": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GN.svg"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "capital": ["Bissau"],
+    "iso": { "alpha-2": "GW", "alpha-3": "GNB", "numeric": "624" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+245"],
+    "timezone": { "Africa/Bissau": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GW.svg"
+  },
+  {
+    "country": "Guyana",
+    "capital": ["Georgetown"],
     "iso": { "alpha-2": "GY", "alpha-3": "GUY", "numeric": "328" },
-    "region": "Americas"
+    "currency": { "GYD": { "name": "Guyanese dollar", "symbol": "$" } },
+    "dial_code": ["+592"],
+    "timezone": { "America/Guyana": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GY.svg"
   },
   {
-    "currencyName": "Hong Kong Dollar",
-    "currencyCode": "HKD",
-    "displayName": "Hong Kong Dollar - (HKD)",
-    "countryName": "Hong Kong",
-    "countryCode": ["+852"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HK.svg",
-    "timezones": { "Asia/Hong_Kong": "+08:00" },
-    "iso": { "alpha-2": "HK", "alpha-3": "HKG", "numeric": "344" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Honduran Lempira",
-    "currencyCode": "HNL",
-    "displayName": "Honduran Lempira - (HNL)",
-    "countryName": "Honduras",
-    "countryCode": ["+504"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HN.svg",
-    "timezones": { "America/Tegucigalpa": "-06:00" },
-    "iso": { "alpha-2": "HN", "alpha-3": "HND", "numeric": "340" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Croatian Kuna",
-    "currencyCode": "HRK",
-    "displayName": "Croatian Kuna - (HRK)",
-    "countryName": "Croatia",
-    "countryCode": ["+385"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HR.svg",
-    "timezones": { "Europe/Zagreb": "+02:00" },
-    "iso": { "alpha-2": "HR", "alpha-3": "HRV", "numeric": "191" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Haitian Gourde",
-    "currencyCode": "HTG",
-    "displayName": "Haitian Gourde - (HTG)",
-    "countryName": "Haiti",
-    "countryCode": ["+509"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HT.svg",
-    "timezones": { "America/Port-au-Prince": "-04:00" },
+    "country": "Haiti",
+    "capital": ["Port-au-Prince"],
     "iso": { "alpha-2": "HT", "alpha-3": "HTI", "numeric": "332" },
-    "region": "Americas"
+    "currency": { "HTG": { "name": "Haitian gourde", "symbol": "G" } },
+    "dial_code": ["+509"],
+    "timezone": { "America/Port-au-Prince": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HT.svg"
   },
   {
-    "currencyName": "Hungarian Forint",
-    "currencyCode": "HUF",
-    "displayName": "Hungarian Forint - (HUF)",
-    "countryName": "Hungary",
-    "countryCode": ["+36"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HU.svg",
-    "timezones": { "Europe/Budapest": "+02:00" },
+    "country": "Holy See (Vatican City State)",
+    "capital": ["Vatican City"],
+    "iso": { "alpha-2": "VA", "alpha-3": "VAT", "numeric": "336" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+379"],
+    "timezone": { "Europe/Vatican": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VA.svg"
+  },
+  {
+    "country": "Honduras",
+    "capital": ["Tegucigalpa"],
+    "iso": { "alpha-2": "HN", "alpha-3": "HND", "numeric": "340" },
+    "currency": { "HNL": { "name": "Honduran lempira", "symbol": "L" } },
+    "dial_code": ["+504"],
+    "timezone": { "America/Tegucigalpa": "-06:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HN.svg"
+  },
+  {
+    "country": "Hong Kong",
+    "capital": ["City of Victoria"],
+    "iso": { "alpha-2": "HK", "alpha-3": "HKG", "numeric": "344" },
+    "currency": { "HKD": { "name": "Hong Kong dollar", "symbol": "$" } },
+    "dial_code": ["+852"],
+    "timezone": { "Asia/Hong_Kong": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HK.svg"
+  },
+  {
+    "country": "Hungary",
+    "capital": ["Budapest"],
     "iso": { "alpha-2": "HU", "alpha-3": "HUN", "numeric": "348" },
-    "region": "Europe"
+    "currency": { "HUF": { "name": "Hungarian forint", "symbol": "Ft" } },
+    "dial_code": ["+36"],
+    "timezone": { "Europe/Budapest": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/HU.svg"
   },
   {
-    "currencyName": "Indonesian Rupiah",
-    "currencyCode": "IDR",
-    "displayName": "Indonesian Rupiah - (IDR)",
-    "countryName": "Indonesia",
-    "countryCode": ["+62"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ID.svg",
-    "timezones": {
+    "country": "Iceland",
+    "capital": ["Reykjavik"],
+    "iso": { "alpha-2": "IS", "alpha-3": "ISL", "numeric": "352" },
+    "currency": { "ISK": { "name": "Icelandic króna", "symbol": "kr" } },
+    "dial_code": ["+354"],
+    "timezone": { "Atlantic/Reykjavik": "+00:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IS.svg"
+  },
+  {
+    "country": "India",
+    "capital": ["New Delhi"],
+    "iso": { "alpha-2": "IN", "alpha-3": "IND", "numeric": "356" },
+    "currency": { "INR": { "name": "Indian rupee", "symbol": "₹" } },
+    "dial_code": ["+91"],
+    "timezone": { "Asia/Kolkata": "+05:30" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg"
+  },
+  {
+    "country": "Indonesia",
+    "capital": ["Jakarta"],
+    "iso": { "alpha-2": "ID", "alpha-3": "IDN", "numeric": "360" },
+    "currency": { "IDR": { "name": "Indonesian rupiah", "symbol": "Rp" } },
+    "dial_code": ["+62"],
+    "timezone": {
       "Asia/Jakarta": "+07:00",
       "Asia/Jayapura": "+09:00",
       "Asia/Makassar": "+08:00",
       "Asia/Pontianak": "+07:00"
     },
-    "iso": { "alpha-2": "ID", "alpha-3": "IDN", "numeric": "360" },
-    "region": "Asia"
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ID.svg"
   },
   {
-    "currencyName": "Israeli New Sheqel",
-    "currencyCode": "ILS",
-    "displayName": "Israeli New Sheqel - (ILS)",
-    "countryName": "Palestine"
+    "country": "Iran, Islamic Republic of",
+    "capital": ["Tehran"],
+    "iso": { "alpha-2": "IR", "alpha-3": "IRN", "numeric": "364" },
+    "currency": { "IRR": { "name": "Iranian rial", "symbol": "﷼" } },
+    "dial_code": ["+98"],
+    "timezone": { "Asia/Tehran": "+03:30" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IR.svg"
   },
   {
-    "currencyName": "Manx pound",
-    "currencyCode": "IMP",
-    "displayName": "Manx pound - (IMP)",
-    "countryName": "Isle of Man",
-    "countryCode": ["+44-1624"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IM.svg",
-    "timezones": { "Europe/Isle_of_Man": "+01:00" },
-    "iso": { "alpha-2": "IM", "alpha-3": "IMN", "numeric": "833" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Indian Rupee",
-    "currencyCode": "INR",
-    "displayName": "Indian Rupee - (INR)",
-    "countryName": "India",
-    "countryCode": ["+91"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IN.svg",
-    "timezones": { "Asia/Kolkata": "+05:30" },
-    "iso": { "alpha-2": "IN", "alpha-3": "IND", "numeric": "356" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Iraqi Dinar",
-    "currencyCode": "IQD",
-    "displayName": "Iraqi Dinar - (IQD)",
-    "countryName": "Iraq",
-    "countryCode": ["+964"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IQ.svg",
-    "timezones": { "Asia/Baghdad": "+03:00" },
+    "country": "Iraq",
+    "capital": ["Baghdad"],
     "iso": { "alpha-2": "IQ", "alpha-3": "IRQ", "numeric": "368" },
-    "region": "Asia"
+    "currency": { "IQD": { "name": "Iraqi dinar", "symbol": "ع.د" } },
+    "dial_code": ["+964"],
+    "timezone": { "Asia/Baghdad": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IQ.svg"
   },
   {
-    "currencyName": "Iranian Rial",
-    "currencyCode": "IRR",
-    "displayName": "Iranian Rial - (IRR)",
-    "countryName": "Iran"
+    "country": "Ireland",
+    "capital": ["Dublin"],
+    "iso": { "alpha-2": "IE", "alpha-3": "IRL", "numeric": "372" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+353"],
+    "timezone": { "Europe/Dublin": "+01:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IE.svg"
   },
   {
-    "currencyName": "Icelandic Króna",
-    "currencyCode": "ISK",
-    "displayName": "Icelandic Króna - (ISK)",
-    "countryName": "Iceland",
-    "countryCode": ["+354"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IS.svg",
-    "timezones": { "Atlantic/Reykjavik": "+00:00" },
-    "iso": { "alpha-2": "IS", "alpha-3": "ISL", "numeric": "352" },
-    "region": "Europe"
+    "country": "Isle of Man",
+    "capital": ["Douglas"],
+    "iso": { "alpha-2": "IM", "alpha-3": "IMN", "numeric": "833" },
+    "currency": {
+      "GBP": { "name": "British pound", "symbol": "£" },
+      "IMP": { "name": "Manx pound", "symbol": "£" }
+    },
+    "dial_code": ["+44-1624"],
+    "timezone": { "Europe/Isle_of_Man": "+01:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IM.svg"
   },
   {
-    "currencyName": "Jersey Pound",
-    "currencyCode": "JEP",
-    "displayName": "Jersey Pound - (JEP)",
-    "countryName": "Jersey",
-    "countryCode": ["+44-1534"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JE.svg",
-    "timezones": { "Europe/Jersey": "+01:00" },
-    "iso": { "alpha-2": "JE", "alpha-3": "JEY", "numeric": "832" },
-    "region": "Europe"
+    "country": "Israel",
+    "capital": ["Jerusalem"],
+    "iso": { "alpha-2": "IL", "alpha-3": "ISR", "numeric": "376" },
+    "currency": { "ILS": { "name": "Israeli new shekel", "symbol": "₪" } },
+    "dial_code": ["+972"],
+    "timezone": { "Asia/Jerusalem": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IL.svg"
   },
   {
-    "currencyName": "Jamaican Dollar",
-    "currencyCode": "JMD",
-    "displayName": "Jamaican Dollar - (JMD)",
-    "countryName": "Jamaica",
-    "countryCode": ["+1-876"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JM.svg",
-    "timezones": { "America/Jamaica": "-05:00" },
+    "country": "Italy",
+    "capital": ["Rome"],
+    "iso": { "alpha-2": "IT", "alpha-3": "ITA", "numeric": "380" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+39"],
+    "timezone": { "Europe/Rome": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/IT.svg"
+  },
+  {
+    "country": "Jamaica",
+    "capital": ["Kingston"],
     "iso": { "alpha-2": "JM", "alpha-3": "JAM", "numeric": "388" },
-    "region": "Americas"
+    "currency": { "JMD": { "name": "Jamaican dollar", "symbol": "$" } },
+    "dial_code": ["+1-876"],
+    "timezone": { "America/Jamaica": "-05:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JM.svg"
   },
   {
-    "currencyName": "Jordanian Dinar",
-    "currencyCode": "JOD",
-    "displayName": "Jordanian Dinar - (JOD)",
-    "countryName": "Jordan",
-    "countryCode": ["+962"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JO.svg",
-    "timezones": { "Asia/Amman": "+03:00" },
-    "iso": { "alpha-2": "JO", "alpha-3": "JOR", "numeric": "400" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Japanese Yen",
-    "currencyCode": "JPY",
-    "displayName": "Japanese Yen - (JPY)",
-    "countryName": "Japan",
-    "countryCode": ["+81"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JP.svg",
-    "timezones": { "Asia/Tokyo": "+09:00" },
+    "country": "Japan",
+    "capital": ["Tokyo"],
     "iso": { "alpha-2": "JP", "alpha-3": "JPN", "numeric": "392" },
-    "region": "Asia"
+    "currency": { "JPY": { "name": "Japanese yen", "symbol": "¥" } },
+    "dial_code": ["+81"],
+    "timezone": { "Asia/Tokyo": "+09:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JP.svg"
   },
   {
-    "currencyName": "Kenyan Shilling",
-    "currencyCode": "KES",
-    "displayName": "Kenyan Shilling - (KES)",
-    "countryName": "Kenya",
-    "countryCode": ["+254"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KE.svg",
-    "timezones": { "Africa/Nairobi": "+03:00" },
-    "iso": { "alpha-2": "KE", "alpha-3": "KEN", "numeric": "404" },
-    "region": "Africa"
+    "country": "Jersey",
+    "capital": ["Saint Helier"],
+    "iso": { "alpha-2": "JE", "alpha-3": "JEY", "numeric": "832" },
+    "currency": {
+      "GBP": { "name": "British pound", "symbol": "£" },
+      "JEP": { "name": "Jersey pound", "symbol": "£" }
+    },
+    "dial_code": ["+44-1534"],
+    "timezone": { "Europe/Jersey": "+01:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JE.svg"
   },
   {
-    "currencyName": "Kyrgystani Som",
-    "currencyCode": "KGS",
-    "displayName": "Kyrgystani Som - (KGS)",
-    "countryName": "Kyrgyzstan",
-    "countryCode": ["+996"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KG.svg",
-    "timezones": { "Asia/Bishkek": "+06:00" },
-    "iso": { "alpha-2": "KG", "alpha-3": "KGZ", "numeric": "417" },
-    "region": "Asia"
+    "country": "Jordan",
+    "capital": ["Amman"],
+    "iso": { "alpha-2": "JO", "alpha-3": "JOR", "numeric": "400" },
+    "currency": { "JOD": { "name": "Jordanian dinar", "symbol": "د.ا" } },
+    "dial_code": ["+962"],
+    "timezone": { "Asia/Amman": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/JO.svg"
   },
   {
-    "currencyName": "Cambodian Riel",
-    "currencyCode": "KHR",
-    "displayName": "Cambodian Riel - (KHR)",
-    "countryName": "Cambodia",
-    "countryCode": ["+855"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KH.svg",
-    "timezones": { "Asia/Phnom_Penh": "+07:00" },
-    "iso": { "alpha-2": "KH", "alpha-3": "KHM", "numeric": "116" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Comorian Franc",
-    "currencyCode": "KMF",
-    "displayName": "Comorian Franc - (KMF)",
-    "countryName": "Comoros",
-    "countryCode": ["+269"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KM.svg",
-    "timezones": { "Indian/Comoro": "+03:00" },
-    "iso": { "alpha-2": "KM", "alpha-3": "COM", "numeric": "174" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "North Korean Won",
-    "currencyCode": "KPW",
-    "displayName": "North Korean Won - (KPW)",
-    "countryName": "North Korea"
-  },
-  {
-    "currencyName": "South Korean Won",
-    "currencyCode": "KRW",
-    "displayName": "South Korean Won - (KRW)",
-    "countryName": "South Korea"
-  },
-  {
-    "currencyName": "Kuwaiti Dinar",
-    "currencyCode": "KWD",
-    "displayName": "Kuwaiti Dinar - (KWD)",
-    "countryName": "Kuwait",
-    "countryCode": ["+965"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KW.svg",
-    "timezones": { "Asia/Kuwait": "+03:00" },
-    "iso": { "alpha-2": "KW", "alpha-3": "KWT", "numeric": "414" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Cayman Islands Dollar",
-    "currencyCode": "KYD",
-    "displayName": "Cayman Islands Dollar - (KYD)",
-    "countryName": "Cayman Islands",
-    "countryCode": ["+1-345"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KY.svg",
-    "timezones": { "America/Cayman": "-05:00" },
-    "iso": { "alpha-2": "KY", "alpha-3": "CYM", "numeric": "136" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Kazakhstani Tenge",
-    "currencyCode": "KZT",
-    "displayName": "Kazakhstani Tenge - (KZT)",
-    "countryName": "Kazakhstan",
-    "countryCode": ["+7"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KZ.svg",
-    "timezones": {
+    "country": "Kazakhstan",
+    "capital": ["Nur-Sultan"],
+    "iso": { "alpha-2": "KZ", "alpha-3": "KAZ", "numeric": "398" },
+    "currency": { "KZT": { "name": "Kazakhstani tenge", "symbol": "₸" } },
+    "dial_code": ["+7"],
+    "timezone": {
       "Asia/Almaty": "+06:00",
       "Asia/Aqtau": "+05:00",
       "Asia/Aqtobe": "+05:00",
@@ -891,188 +1289,306 @@
       "Asia/Qostanay": "+06:00",
       "Asia/Qyzylorda": "+05:00"
     },
-    "iso": { "alpha-2": "KZ", "alpha-3": "KAZ", "numeric": "398" },
-    "region": "Asia"
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KZ.svg"
   },
   {
-    "currencyName": "Laotian Kip",
-    "currencyCode": "LAK",
-    "displayName": "Laotian Kip - (LAK)",
-    "countryName": "Laos"
+    "country": "Kenya",
+    "capital": ["Nairobi"],
+    "iso": { "alpha-2": "KE", "alpha-3": "KEN", "numeric": "404" },
+    "currency": { "KES": { "name": "Kenyan shilling", "symbol": "Sh" } },
+    "dial_code": ["+254"],
+    "timezone": { "Africa/Nairobi": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KE.svg"
   },
   {
-    "currencyName": "Lebanese Pound",
-    "currencyCode": "LBP",
-    "displayName": "Lebanese Pound - (LBP)",
-    "countryName": "Lebanon",
-    "countryCode": ["+961"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LB.svg",
-    "timezones": { "Asia/Beirut": "+03:00" },
-    "iso": { "alpha-2": "LB", "alpha-3": "LBN", "numeric": "422" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Sri Lankan Rupee",
-    "currencyCode": "LKR",
-    "displayName": "Sri Lankan Rupee - (LKR)",
-    "countryName": "Sri Lanka",
-    "countryCode": ["+94"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg",
-    "timezones": { "Asia/Colombo": "+05:30" },
-    "iso": { "alpha-2": "LK", "alpha-3": "LKA", "numeric": "144" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Liberian Dollar",
-    "currencyCode": "LRD",
-    "displayName": "Liberian Dollar - (LRD)",
-    "countryName": "Liberia",
-    "countryCode": ["+231"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LR.svg",
-    "timezones": { "Africa/Monrovia": "+00:00" },
-    "iso": { "alpha-2": "LR", "alpha-3": "LBR", "numeric": "430" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Lesotho Loti",
-    "currencyCode": "LSL",
-    "displayName": "Lesotho Loti - (LSL)",
-    "countryName": "Lesotho",
-    "countryCode": ["+266"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LS.svg",
-    "timezones": { "Africa/Maseru": "+02:00" },
-    "iso": { "alpha-2": "LS", "alpha-3": "LSO", "numeric": "426" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Libyan Dinar",
-    "currencyCode": "LYD",
-    "displayName": "Libyan Dinar - (LYD)",
-    "countryName": "Libya",
-    "countryCode": ["+218"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LY.svg",
-    "timezones": { "Africa/Tripoli": "+02:00" },
-    "iso": { "alpha-2": "LY", "alpha-3": "LBY", "numeric": "434" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Moroccan Dirham",
-    "currencyCode": "MAD",
-    "displayName": "Moroccan Dirham - (MAD)",
-    "countryName": "Morocco",
-    "countryCode": ["+212"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MA.svg",
-    "timezones": { "Africa/Casablanca": "+00:00", "Africa/El_Aaiun": "+00:00" },
-    "iso": { "alpha-2": "MA", "alpha-3": "MAR", "numeric": "504" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Moldovan Leu",
-    "currencyCode": "MDL",
-    "displayName": "Moldovan Leu - (MDL)",
-    "countryName": "Moldova"
-  },
-  {
-    "currencyName": "Malagasy Ariary",
-    "currencyCode": "MGA",
-    "displayName": "Malagasy Ariary - (MGA)",
-    "countryName": "Madagascar",
-    "countryCode": ["+261"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MG.svg",
-    "timezones": { "Indian/Antananarivo": "+03:00" },
-    "iso": { "alpha-2": "MG", "alpha-3": "MDG", "numeric": "450" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Macedonian Denar",
-    "currencyCode": "MKD",
-    "displayName": "Macedonian Denar - (MKD)",
-    "countryName": "Macedonia"
-  },
-  {
-    "currencyName": "Myanma Kyat",
-    "currencyCode": "MMK",
-    "displayName": "Myanma Kyat - (MMK)",
-    "countryName": "Myanmar [Burma]"
-  },
-  {
-    "currencyName": "Mongolian Tugrik",
-    "currencyCode": "MNT",
-    "displayName": "Mongolian Tugrik - (MNT)",
-    "countryName": "Mongolia",
-    "countryCode": ["+976"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MN.svg",
-    "timezones": {
-      "Asia/Choibalsan": "+08:00",
-      "Asia/Hovd": "+07:00",
-      "Asia/Ulaanbaatar": "+08:00"
+    "country": "Kiribati",
+    "capital": ["South Tarawa"],
+    "iso": { "alpha-2": "KI", "alpha-3": "KIR", "numeric": "296" },
+    "currency": {
+      "AUD": { "name": "Australian dollar", "symbol": "$" },
+      "KID": { "name": "Kiribati dollar", "symbol": "$" }
     },
-    "iso": { "alpha-2": "MN", "alpha-3": "MNG", "numeric": "496" },
-    "region": "Asia"
+    "dial_code": ["+686"],
+    "timezone": {
+      "Pacific/Kanton": "+13:00",
+      "Pacific/Kiritimati": "+14:00",
+      "Pacific/Tarawa": "+12:00"
+    },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KI.svg"
   },
   {
-    "currencyName": "Macanese Pataca",
-    "currencyCode": "MOP",
-    "displayName": "Macanese Pataca - (MOP)",
-    "countryName": "Macao",
-    "countryCode": ["+853"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MO.svg",
-    "timezones": { "Asia/Macau": "+08:00" },
+    "country": "Korea, Democratic People's Republic of",
+    "capital": ["Pyongyang"],
+    "iso": { "alpha-2": "KP", "alpha-3": "PRK", "numeric": "408" },
+    "currency": { "KPW": { "name": "North Korean won", "symbol": "₩" } },
+    "dial_code": ["+850"],
+    "timezone": { "Asia/Pyongyang": "+09:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KP.svg"
+  },
+  {
+    "country": "Korea, Republic of",
+    "capital": ["Seoul"],
+    "iso": { "alpha-2": "KR", "alpha-3": "KOR", "numeric": "410" },
+    "currency": { "KRW": { "name": "South Korean won", "symbol": "₩" } },
+    "dial_code": ["+82"],
+    "timezone": { "Asia/Seoul": "+09:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KR.svg"
+  },
+  {
+    "country": "Kuwait",
+    "capital": ["Kuwait City"],
+    "iso": { "alpha-2": "KW", "alpha-3": "KWT", "numeric": "414" },
+    "currency": { "KWD": { "name": "Kuwaiti dinar", "symbol": "د.ك" } },
+    "dial_code": ["+965"],
+    "timezone": { "Asia/Kuwait": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KW.svg"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "capital": ["Bishkek"],
+    "iso": { "alpha-2": "KG", "alpha-3": "KGZ", "numeric": "417" },
+    "currency": { "KGS": { "name": "Kyrgyzstani som", "symbol": "с" } },
+    "dial_code": ["+996"],
+    "timezone": { "Asia/Bishkek": "+06:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KG.svg"
+  },
+  {
+    "country": "Lao People's Democratic Republic",
+    "capital": ["Vientiane"],
+    "iso": { "alpha-2": "LA", "alpha-3": "LAO", "numeric": "418" },
+    "currency": { "LAK": { "name": "Lao kip", "symbol": "₭" } },
+    "dial_code": ["+856"],
+    "timezone": { "Asia/Vientiane": "+07:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LA.svg"
+  },
+  {
+    "country": "Latvia",
+    "capital": ["Riga"],
+    "iso": { "alpha-2": "LV", "alpha-3": "LVA", "numeric": "428" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+371"],
+    "timezone": { "Europe/Riga": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LV.svg"
+  },
+  {
+    "country": "Lebanon",
+    "capital": ["Beirut"],
+    "iso": { "alpha-2": "LB", "alpha-3": "LBN", "numeric": "422" },
+    "currency": { "LBP": { "name": "Lebanese pound", "symbol": "ل.ل" } },
+    "dial_code": ["+961"],
+    "timezone": { "Asia/Beirut": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LB.svg"
+  },
+  {
+    "country": "Lesotho",
+    "capital": ["Maseru"],
+    "iso": { "alpha-2": "LS", "alpha-3": "LSO", "numeric": "426" },
+    "currency": {
+      "LSL": { "name": "Lesotho loti", "symbol": "L" },
+      "ZAR": { "name": "South African rand", "symbol": "R" }
+    },
+    "dial_code": ["+266"],
+    "timezone": { "Africa/Maseru": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LS.svg"
+  },
+  {
+    "country": "Liberia",
+    "capital": ["Monrovia"],
+    "iso": { "alpha-2": "LR", "alpha-3": "LBR", "numeric": "430" },
+    "currency": { "LRD": { "name": "Liberian dollar", "symbol": "$" } },
+    "dial_code": ["+231"],
+    "timezone": { "Africa/Monrovia": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LR.svg"
+  },
+  {
+    "country": "Libya",
+    "capital": ["Tripoli"],
+    "iso": { "alpha-2": "LY", "alpha-3": "LBY", "numeric": "434" },
+    "currency": { "LYD": { "name": "Libyan dinar", "symbol": "ل.د" } },
+    "dial_code": ["+218"],
+    "timezone": { "Africa/Tripoli": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LY.svg"
+  },
+  {
+    "country": "Liechtenstein",
+    "capital": ["Vaduz"],
+    "iso": { "alpha-2": "LI", "alpha-3": "LIE", "numeric": "438" },
+    "currency": { "CHF": { "name": "Swiss franc", "symbol": "Fr" } },
+    "dial_code": ["+423"],
+    "timezone": { "Europe/Vaduz": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LI.svg"
+  },
+  {
+    "country": "Lithuania",
+    "capital": ["Vilnius"],
+    "iso": { "alpha-2": "LT", "alpha-3": "LTU", "numeric": "440" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+370"],
+    "timezone": { "Europe/Vilnius": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LT.svg"
+  },
+  {
+    "country": "Luxembourg",
+    "capital": ["Luxembourg"],
+    "iso": { "alpha-2": "LU", "alpha-3": "LUX", "numeric": "442" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+352"],
+    "timezone": { "Europe/Luxembourg": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LU.svg"
+  },
+  {
+    "country": "Macao",
+    "capital": ["Macao"],
     "iso": { "alpha-2": "MO", "alpha-3": "MAC", "numeric": "446" },
-    "region": "Asia"
+    "currency": { "MOP": { "name": "Macanese pataca", "symbol": "P" } },
+    "dial_code": ["+853"],
+    "timezone": { "Asia/Macau": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MO.svg"
   },
   {
-    "currencyName": "Mauritanian Ouguiya",
-    "currencyCode": "MRU",
-    "displayName": "Mauritanian Ouguiya - (MRU)",
-    "countryName": "Mauritania",
-    "countryCode": ["+222"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MR.svg",
-    "timezones": { "Africa/Nouakchott": "+00:00" },
-    "iso": { "alpha-2": "MR", "alpha-3": "MRT", "numeric": "478" },
-    "region": "Africa"
+    "country": "Macedonia, the Former Yugoslav Republic of",
+    "capital": ["Skopje"],
+    "iso": { "alpha-2": "MK", "alpha-3": "MKD", "numeric": "807" },
+    "currency": { "MKD": { "name": "denar", "symbol": "den" } },
+    "dial_code": ["+389"],
+    "timezone": { "Europe/Skopje": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MK.svg"
   },
   {
-    "currencyName": "Mauritian Rupee",
-    "currencyCode": "MUR",
-    "displayName": "Mauritian Rupee - (MUR)",
-    "countryName": "Mauritius",
-    "countryCode": ["+230"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MU.svg",
-    "timezones": { "Indian/Mauritius": "+04:00" },
-    "iso": { "alpha-2": "MU", "alpha-3": "MUS", "numeric": "480" },
-    "region": "Africa"
+    "country": "Madagascar",
+    "capital": ["Antananarivo"],
+    "iso": { "alpha-2": "MG", "alpha-3": "MDG", "numeric": "450" },
+    "currency": { "MGA": { "name": "Malagasy ariary", "symbol": "Ar" } },
+    "dial_code": ["+261"],
+    "timezone": { "Indian/Antananarivo": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MG.svg"
   },
   {
-    "currencyName": "Maldivian Rufiyaa",
-    "currencyCode": "MVR",
-    "displayName": "Maldivian Rufiyaa - (MVR)",
-    "countryName": "Maldives",
-    "countryCode": ["+960"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MV.svg",
-    "timezones": { "Indian/Maldives": "+05:00" },
-    "iso": { "alpha-2": "MV", "alpha-3": "MDV", "numeric": "462" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Malawian Kwacha",
-    "currencyCode": "MWK",
-    "displayName": "Malawian Kwacha - (MWK)",
-    "countryName": "Malawi",
-    "countryCode": ["+265"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MW.svg",
-    "timezones": { "Africa/Blantyre": "+02:00" },
+    "country": "Malawi",
+    "capital": ["Lilongwe"],
     "iso": { "alpha-2": "MW", "alpha-3": "MWI", "numeric": "454" },
-    "region": "Africa"
+    "currency": { "MWK": { "name": "Malawian kwacha", "symbol": "MK" } },
+    "dial_code": ["+265"],
+    "timezone": { "Africa/Blantyre": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MW.svg"
   },
   {
-    "currencyName": "Mexican Peso",
-    "currencyCode": "MXN",
-    "displayName": "Mexican Peso - (MXN)",
-    "countryName": "Mexico",
-    "countryCode": ["+52"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg",
-    "timezones": {
+    "country": "Malaysia",
+    "capital": ["Kuala Lumpur"],
+    "iso": { "alpha-2": "MY", "alpha-3": "MYS", "numeric": "458" },
+    "currency": { "MYR": { "name": "Malaysian ringgit", "symbol": "RM" } },
+    "dial_code": ["+60"],
+    "timezone": { "Asia/Kuala_Lumpur": "+08:00", "Asia/Kuching": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MY.svg"
+  },
+  {
+    "country": "Maldives",
+    "capital": ["Malé"],
+    "iso": { "alpha-2": "MV", "alpha-3": "MDV", "numeric": "462" },
+    "currency": { "MVR": { "name": "Maldivian rufiyaa", "symbol": ".ރ" } },
+    "dial_code": ["+960"],
+    "timezone": { "Indian/Maldives": "+05:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MV.svg"
+  },
+  {
+    "country": "Mali",
+    "capital": ["Bamako"],
+    "iso": { "alpha-2": "ML", "alpha-3": "MLI", "numeric": "466" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+223"],
+    "timezone": { "Africa/Bamako": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ML.svg"
+  },
+  {
+    "country": "Malta",
+    "capital": ["Valletta"],
+    "iso": { "alpha-2": "MT", "alpha-3": "MLT", "numeric": "470" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+356"],
+    "timezone": { "Europe/Malta": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MT.svg"
+  },
+  {
+    "country": "Marshall Islands",
+    "capital": ["Majuro"],
+    "iso": { "alpha-2": "MH", "alpha-3": "MHL", "numeric": "584" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+692"],
+    "timezone": { "Pacific/Kwajalein": "+12:00", "Pacific/Majuro": "+12:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MH.svg"
+  },
+  {
+    "country": "Martinique",
+    "capital": ["Fort-de-France"],
+    "iso": { "alpha-2": "MQ", "alpha-3": "MTQ", "numeric": "474" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+596"],
+    "timezone": { "America/Martinique": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MQ.svg"
+  },
+  {
+    "country": "Mauritania",
+    "capital": ["Nouakchott"],
+    "iso": { "alpha-2": "MR", "alpha-3": "MRT", "numeric": "478" },
+    "currency": { "MRU": { "name": "Mauritanian ouguiya", "symbol": "UM" } },
+    "dial_code": ["+222"],
+    "timezone": { "Africa/Nouakchott": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MR.svg"
+  },
+  {
+    "country": "Mauritius",
+    "capital": ["Port Louis"],
+    "iso": { "alpha-2": "MU", "alpha-3": "MUS", "numeric": "480" },
+    "currency": { "MUR": { "name": "Mauritian rupee", "symbol": "₨" } },
+    "dial_code": ["+230"],
+    "timezone": { "Indian/Mauritius": "+04:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MU.svg"
+  },
+  {
+    "country": "Mayotte",
+    "capital": ["Mamoudzou"],
+    "iso": { "alpha-2": "YT", "alpha-3": "MYT", "numeric": "175" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+262"],
+    "timezone": { "Indian/Mayotte": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YT.svg"
+  },
+  {
+    "country": "Mexico",
+    "capital": ["Mexico City"],
+    "iso": { "alpha-2": "MX", "alpha-3": "MEX", "numeric": "484" },
+    "currency": { "MXN": { "name": "Mexican peso", "symbol": "$" } },
+    "dial_code": ["+52"],
+    "timezone": {
       "America/Bahia_Banderas": "-06:00",
       "America/Cancun": "-05:00",
       "America/Chihuahua": "-06:00",
@@ -1086,653 +1602,1180 @@
       "America/Ojinaga": "-05:00",
       "America/Tijuana": "-07:00"
     },
-    "iso": { "alpha-2": "MX", "alpha-3": "MEX", "numeric": "484" },
-    "region": "Americas"
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MX.svg"
   },
   {
-    "currencyName": "Malaysian Ringgit",
-    "currencyCode": "MYR",
-    "displayName": "Malaysian Ringgit - (MYR)",
-    "countryName": "Malaysia",
-    "countryCode": ["+60"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MY.svg",
-    "timezones": { "Asia/Kuala_Lumpur": "+08:00", "Asia/Kuching": "+08:00" },
-    "iso": { "alpha-2": "MY", "alpha-3": "MYS", "numeric": "458" },
-    "region": "Asia"
+    "country": "Micronesia, Federated States of",
+    "capital": ["Palikir"],
+    "iso": { "alpha-2": "FM", "alpha-3": "FSM", "numeric": "583" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+691"],
+    "timezone": {
+      "Pacific/Chuuk": "+10:00",
+      "Pacific/Kosrae": "+11:00",
+      "Pacific/Pohnpei": "+11:00"
+    },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/FM.svg"
   },
   {
-    "currencyName": "Mozambican Metical",
-    "currencyCode": "MZN",
-    "displayName": "Mozambican Metical - (MZN)",
-    "countryName": "Mozambique",
-    "countryCode": ["+258"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MZ.svg",
-    "timezones": { "Africa/Maputo": "+02:00" },
+    "country": "Moldova, Republic of",
+    "capital": ["Chișinău"],
+    "iso": { "alpha-2": "MD", "alpha-3": "MDA", "numeric": "498" },
+    "currency": { "MDL": { "name": "Moldovan leu", "symbol": "L" } },
+    "dial_code": ["+373"],
+    "timezone": { "Europe/Chisinau": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MD.svg"
+  },
+  {
+    "country": "Monaco",
+    "capital": ["Monaco"],
+    "iso": { "alpha-2": "MC", "alpha-3": "MCO", "numeric": "492" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+377"],
+    "timezone": { "Europe/Monaco": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MC.svg"
+  },
+  {
+    "country": "Mongolia",
+    "capital": ["Ulan Bator"],
+    "iso": { "alpha-2": "MN", "alpha-3": "MNG", "numeric": "496" },
+    "currency": { "MNT": { "name": "Mongolian tögrög", "symbol": "₮" } },
+    "dial_code": ["+976"],
+    "timezone": {
+      "Asia/Choibalsan": "+08:00",
+      "Asia/Hovd": "+07:00",
+      "Asia/Ulaanbaatar": "+08:00"
+    },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MN.svg"
+  },
+  {
+    "country": "Montenegro",
+    "capital": ["Podgorica"],
+    "iso": { "alpha-2": "ME", "alpha-3": "MNE", "numeric": "499" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+382"],
+    "timezone": { "Europe/Podgorica": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ME.svg"
+  },
+  {
+    "country": "Montserrat",
+    "capital": ["Plymouth"],
+    "iso": { "alpha-2": "MS", "alpha-3": "MSR", "numeric": "500" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-664"],
+    "timezone": { "America/Montserrat": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MS.svg"
+  },
+  {
+    "country": "Morocco",
+    "capital": ["Rabat"],
+    "iso": { "alpha-2": "MA", "alpha-3": "MAR", "numeric": "504" },
+    "currency": { "MAD": { "name": "Moroccan dirham", "symbol": "د.م." } },
+    "dial_code": ["+212"],
+    "timezone": { "Africa/Casablanca": "+00:00", "Africa/El_Aaiun": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MA.svg"
+  },
+  {
+    "country": "Mozambique",
+    "capital": ["Maputo"],
     "iso": { "alpha-2": "MZ", "alpha-3": "MOZ", "numeric": "508" },
-    "region": "Africa"
+    "currency": { "MZN": { "name": "Mozambican metical", "symbol": "MT" } },
+    "dial_code": ["+258"],
+    "timezone": { "Africa/Maputo": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MZ.svg"
   },
   {
-    "currencyName": "Namibian Dollar",
-    "currencyCode": "NAD",
-    "displayName": "Namibian Dollar - (NAD)",
-    "countryName": "Namibia",
-    "countryCode": ["+264"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NA.svg",
-    "timezones": { "Africa/Windhoek": "+02:00" },
+    "country": "Myanmar",
+    "capital": ["Naypyidaw"],
+    "iso": { "alpha-2": "MM", "alpha-3": "MMR", "numeric": "104" },
+    "currency": { "MMK": { "name": "Burmese kyat", "symbol": "Ks" } },
+    "dial_code": ["+95"],
+    "timezone": { "Asia/Yangon": "+06:30" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MM.svg"
+  },
+  {
+    "country": "Namibia",
+    "capital": ["Windhoek"],
     "iso": { "alpha-2": "NA", "alpha-3": "NAM", "numeric": "516" },
-    "region": "Africa"
+    "currency": {
+      "NAD": { "name": "Namibian dollar", "symbol": "$" },
+      "ZAR": { "name": "South African rand", "symbol": "R" }
+    },
+    "dial_code": ["+264"],
+    "timezone": { "Africa/Windhoek": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NA.svg"
   },
   {
-    "currencyName": "Nigerian Naira",
-    "currencyCode": "NGN",
-    "displayName": "Nigerian Naira - (NGN)",
-    "countryName": "Nigeria",
-    "countryCode": ["+234"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg",
-    "timezones": { "Africa/Lagos": "+01:00" },
-    "iso": { "alpha-2": "NG", "alpha-3": "NGA", "numeric": "566" },
-    "region": "Africa"
+    "country": "Nauru",
+    "capital": ["Yaren"],
+    "iso": { "alpha-2": "NR", "alpha-3": "NRU", "numeric": "520" },
+    "currency": { "AUD": { "name": "Australian dollar", "symbol": "$" } },
+    "dial_code": ["+674"],
+    "timezone": { "Pacific/Nauru": "+12:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NR.svg"
   },
   {
-    "currencyName": "Nicaraguan Córdoba",
-    "currencyCode": "NIO",
-    "displayName": "Nicaraguan Córdoba - (NIO)",
-    "countryName": "Nicaragua",
-    "countryCode": ["+505"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg",
-    "timezones": { "America/Managua": "-06:00" },
-    "iso": { "alpha-2": "NI", "alpha-3": "NIC", "numeric": "558" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Norwegian Krone",
-    "currencyCode": "NOK",
-    "displayName": "Norwegian Krone - (NOK)",
-    "countryName": "Svalbard and Jan Mayen",
-    "countryCode": ["+47"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SJ.svg",
-    "timezones": { "Arctic/Longyearbyen": "+02:00" },
-    "iso": { "alpha-2": "SJ", "alpha-3": "SJM", "numeric": "744" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Nepalese Rupee",
-    "currencyCode": "NPR",
-    "displayName": "Nepalese Rupee - (NPR)",
-    "countryName": "Nepal",
-    "countryCode": ["+977"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NP.svg",
-    "timezones": { "Asia/Kathmandu": "+05:45" },
+    "country": "Nepal",
+    "capital": ["Kathmandu"],
     "iso": { "alpha-2": "NP", "alpha-3": "NPL", "numeric": "524" },
-    "region": "Asia"
+    "currency": { "NPR": { "name": "Nepalese rupee", "symbol": "₨" } },
+    "dial_code": ["+977"],
+    "timezone": { "Asia/Kathmandu": "+05:45" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NP.svg"
   },
   {
-    "currencyName": "New Zealand Dollar",
-    "currencyCode": "NZD",
-    "displayName": "New Zealand Dollar - (NZD)",
-    "countryName": "Tokelau",
-    "countryCode": ["+690"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TK.svg",
-    "timezones": { "Pacific/Fakaofo": "+13:00" },
-    "iso": { "alpha-2": "TK", "alpha-3": "TKL", "numeric": "772" },
-    "region": "Oceania"
+    "country": "Netherlands",
+    "capital": ["Amsterdam"],
+    "iso": { "alpha-2": "NL", "alpha-3": "NLD", "numeric": "528" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+31"],
+    "timezone": { "Europe/Amsterdam": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NL.svg"
   },
   {
-    "currencyName": "Omani Rial",
-    "currencyCode": "OMR",
-    "displayName": "Omani Rial - (OMR)",
-    "countryName": "Oman",
-    "countryCode": ["+968"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/OM.svg",
-    "timezones": { "Asia/Muscat": "+04:00" },
+    "country": "New Caledonia",
+    "capital": ["Nouméa"],
+    "iso": { "alpha-2": "NC", "alpha-3": "NCL", "numeric": "540" },
+    "currency": { "XPF": { "name": "CFP franc", "symbol": "₣" } },
+    "dial_code": ["+687"],
+    "timezone": { "Pacific/Noumea": "+11:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NC.svg"
+  },
+  {
+    "country": "New Zealand",
+    "capital": ["Wellington"],
+    "iso": { "alpha-2": "NZ", "alpha-3": "NZL", "numeric": "554" },
+    "currency": { "NZD": { "name": "New Zealand dollar", "symbol": "$" } },
+    "dial_code": ["+64"],
+    "timezone": { "Pacific/Auckland": "+12:00", "Pacific/Chatham": "+12:45" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NZ.svg"
+  },
+  {
+    "country": "Nicaragua",
+    "capital": ["Managua"],
+    "iso": { "alpha-2": "NI", "alpha-3": "NIC", "numeric": "558" },
+    "currency": { "NIO": { "name": "Nicaraguan córdoba", "symbol": "C$" } },
+    "dial_code": ["+505"],
+    "timezone": { "America/Managua": "-06:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NI.svg"
+  },
+  {
+    "country": "Niger",
+    "capital": ["Niamey"],
+    "iso": { "alpha-2": "NE", "alpha-3": "NER", "numeric": "562" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+227"],
+    "timezone": { "Africa/Niamey": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NE.svg"
+  },
+  {
+    "country": "Nigeria",
+    "capital": ["Abuja"],
+    "iso": { "alpha-2": "NG", "alpha-3": "NGA", "numeric": "566" },
+    "currency": { "NGN": { "name": "Nigerian naira", "symbol": "₦" } },
+    "dial_code": ["+234"],
+    "timezone": { "Africa/Lagos": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NG.svg"
+  },
+  {
+    "country": "Niue",
+    "capital": ["Alofi"],
+    "iso": { "alpha-2": "NU", "alpha-3": "NIU", "numeric": "570" },
+    "currency": { "NZD": { "name": "New Zealand dollar", "symbol": "$" } },
+    "dial_code": ["+683"],
+    "timezone": { "Pacific/Niue": "-11:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NU.svg"
+  },
+  {
+    "country": "Norfolk Island",
+    "capital": ["Kingston"],
+    "iso": { "alpha-2": "NF", "alpha-3": "NFK", "numeric": "574" },
+    "currency": { "AUD": { "name": "Australian dollar", "symbol": "$" } },
+    "dial_code": ["+672"],
+    "timezone": { "Pacific/Norfolk": "+11:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NF.svg"
+  },
+  {
+    "country": "Northern Mariana Islands",
+    "capital": ["Saipan"],
+    "iso": { "alpha-2": "MP", "alpha-3": "MNP", "numeric": "580" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-670"],
+    "timezone": { "Pacific/Saipan": "+10:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MP.svg"
+  },
+  {
+    "country": "Norway",
+    "capital": ["Oslo"],
+    "iso": { "alpha-2": "NO", "alpha-3": "NOR", "numeric": "578" },
+    "currency": { "NOK": { "name": "Norwegian krone", "symbol": "kr" } },
+    "dial_code": ["+47"],
+    "timezone": { "Europe/Oslo": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/NO.svg"
+  },
+  {
+    "country": "Oman",
+    "capital": ["Muscat"],
     "iso": { "alpha-2": "OM", "alpha-3": "OMN", "numeric": "512" },
-    "region": "Asia"
+    "currency": { "OMR": { "name": "Omani rial", "symbol": "ر.ع." } },
+    "dial_code": ["+968"],
+    "timezone": { "Asia/Muscat": "+04:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/OM.svg"
   },
   {
-    "currencyName": "Panamanian Balboa",
-    "currencyCode": "PAB",
-    "displayName": "Panamanian Balboa - (PAB)",
-    "countryName": "Panama",
-    "countryCode": ["+507"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PA.svg",
-    "timezones": { "America/Panama": "-05:00" },
+    "country": "Pakistan",
+    "capital": ["Islamabad"],
+    "iso": { "alpha-2": "PK", "alpha-3": "PAK", "numeric": "586" },
+    "currency": { "PKR": { "name": "Pakistani rupee", "symbol": "₨" } },
+    "dial_code": ["+92"],
+    "timezone": { "Asia/Karachi": "+05:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg"
+  },
+  {
+    "country": "Palau",
+    "capital": ["Ngerulmud"],
+    "iso": { "alpha-2": "PW", "alpha-3": "PLW", "numeric": "585" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+680"],
+    "timezone": { "Pacific/Palau": "+09:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PW.svg"
+  },
+  {
+    "country": "Palestine, State of",
+    "capital": ["Ramallah", "Jerusalem"],
+    "iso": { "alpha-2": "PS", "alpha-3": "PSE", "numeric": "275" },
+    "currency": {
+      "EGP": { "name": "Egyptian pound", "symbol": "E£" },
+      "ILS": { "name": "Israeli new shekel", "symbol": "₪" },
+      "JOD": { "name": "Jordanian dinar", "symbol": "JD" }
+    },
+    "dial_code": ["+970"],
+    "timezone": { "Asia/Gaza": "+02:00", "Asia/Hebron": "+02:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PS.svg"
+  },
+  {
+    "country": "Panama",
+    "capital": ["Panama City"],
     "iso": { "alpha-2": "PA", "alpha-3": "PAN", "numeric": "591" },
-    "region": "Americas"
+    "currency": {
+      "PAB": { "name": "Panamanian balboa", "symbol": "B/." },
+      "USD": { "name": "United States dollar", "symbol": "$" }
+    },
+    "dial_code": ["+507"],
+    "timezone": { "America/Panama": "-05:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PA.svg"
   },
   {
-    "currencyName": "Peruvian Nuevo Sol",
-    "currencyCode": "PEN",
-    "displayName": "Peruvian Nuevo Sol - (PEN)",
-    "countryName": "Peru",
-    "countryCode": ["+51"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PE.svg",
-    "timezones": { "America/Lima": "-05:00" },
-    "iso": { "alpha-2": "PE", "alpha-3": "PER", "numeric": "604" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Papua New Guinean Kina",
-    "currencyCode": "PGK",
-    "displayName": "Papua New Guinean Kina - (PGK)",
-    "countryName": "Papua New Guinea",
-    "countryCode": ["+675"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PG.svg",
-    "timezones": {
+    "country": "Papua New Guinea",
+    "capital": ["Port Moresby"],
+    "iso": { "alpha-2": "PG", "alpha-3": "PNG", "numeric": "598" },
+    "currency": { "PGK": { "name": "Papua New Guinean kina", "symbol": "K" } },
+    "dial_code": ["+675"],
+    "timezone": {
       "Pacific/Bougainville": "+11:00",
       "Pacific/Port_Moresby": "+10:00"
     },
-    "iso": { "alpha-2": "PG", "alpha-3": "PNG", "numeric": "598" },
-    "region": "Oceania"
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PG.svg"
   },
   {
-    "currencyName": "Philippine Peso",
-    "currencyCode": "PHP",
-    "displayName": "Philippine Peso - (PHP)",
-    "countryName": "Philippines",
-    "countryCode": ["+63"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PH.svg",
-    "timezones": { "Asia/Manila": "+08:00" },
-    "iso": { "alpha-2": "PH", "alpha-3": "PHL", "numeric": "608" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Pakistani Rupee",
-    "currencyCode": "PKR",
-    "displayName": "Pakistani Rupee - (PKR)",
-    "countryName": "Pakistan",
-    "countryCode": ["+92"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PK.svg",
-    "timezones": { "Asia/Karachi": "+05:00" },
-    "iso": { "alpha-2": "PK", "alpha-3": "PAK", "numeric": "586" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Polish Zloty",
-    "currencyCode": "PLN",
-    "displayName": "Polish Zloty - (PLN)",
-    "countryName": "Poland",
-    "countryCode": ["+48"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PL.svg",
-    "timezones": { "Europe/Warsaw": "+02:00" },
-    "iso": { "alpha-2": "PL", "alpha-3": "POL", "numeric": "616" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Paraguayan Guarani",
-    "currencyCode": "PYG",
-    "displayName": "Paraguayan Guarani - (PYG)",
-    "countryName": "Paraguay",
-    "countryCode": ["+595"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PY.svg",
-    "timezones": { "America/Asuncion": "-04:00" },
+    "country": "Paraguay",
+    "capital": ["Asunción"],
     "iso": { "alpha-2": "PY", "alpha-3": "PRY", "numeric": "600" },
-    "region": "Americas"
+    "currency": { "PYG": { "name": "Paraguayan guaraní", "symbol": "₲" } },
+    "dial_code": ["+595"],
+    "timezone": { "America/Asuncion": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PY.svg"
   },
   {
-    "currencyName": "Qatari Rial",
-    "currencyCode": "QAR",
-    "displayName": "Qatari Rial - (QAR)",
-    "countryName": "Qatar",
-    "countryCode": ["+974"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/QA.svg",
-    "timezones": { "Asia/Qatar": "+03:00" },
+    "country": "Peru",
+    "capital": ["Lima"],
+    "iso": { "alpha-2": "PE", "alpha-3": "PER", "numeric": "604" },
+    "currency": { "PEN": { "name": "Peruvian sol", "symbol": "S/ " } },
+    "dial_code": ["+51"],
+    "timezone": { "America/Lima": "-05:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PE.svg"
+  },
+  {
+    "country": "Philippines",
+    "capital": ["Manila"],
+    "iso": { "alpha-2": "PH", "alpha-3": "PHL", "numeric": "608" },
+    "currency": { "PHP": { "name": "Philippine peso", "symbol": "₱" } },
+    "dial_code": ["+63"],
+    "timezone": { "Asia/Manila": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PH.svg"
+  },
+  {
+    "country": "Pitcairn",
+    "capital": ["Adamstown"],
+    "iso": { "alpha-2": "PN", "alpha-3": "PCN", "numeric": "612" },
+    "currency": { "NZD": { "name": "New Zealand dollar", "symbol": "$" } },
+    "dial_code": ["+870"],
+    "timezone": { "Pacific/Pitcairn": "-08:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PN.svg"
+  },
+  {
+    "country": "Poland",
+    "capital": ["Warsaw"],
+    "iso": { "alpha-2": "PL", "alpha-3": "POL", "numeric": "616" },
+    "currency": { "PLN": { "name": "Polish złoty", "symbol": "zł" } },
+    "dial_code": ["+48"],
+    "timezone": { "Europe/Warsaw": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PL.svg"
+  },
+  {
+    "country": "Portugal",
+    "capital": ["Lisbon"],
+    "iso": { "alpha-2": "PT", "alpha-3": "PRT", "numeric": "620" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+351"],
+    "timezone": {
+      "Atlantic/Azores": "+00:00",
+      "Atlantic/Madeira": "+01:00",
+      "Europe/Lisbon": "+01:00"
+    },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PT.svg"
+  },
+  {
+    "country": "Puerto Rico",
+    "capital": ["San Juan"],
+    "iso": { "alpha-2": "PR", "alpha-3": "PRI", "numeric": "630" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-787"],
+    "timezone": { "America/Puerto_Rico": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PR.svg"
+  },
+  {
+    "country": "Puerto Rico",
+    "capital": ["San Juan"],
+    "iso": { "alpha-2": "PR", "alpha-3": "PRI", "numeric": "630" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-939"],
+    "timezone": { "America/Puerto_Rico": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PR.svg"
+  },
+  {
+    "country": "Qatar",
+    "capital": ["Doha"],
     "iso": { "alpha-2": "QA", "alpha-3": "QAT", "numeric": "634" },
-    "region": "Asia"
+    "currency": { "QAR": { "name": "Qatari riyal", "symbol": "ر.ق" } },
+    "dial_code": ["+974"],
+    "timezone": { "Asia/Qatar": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/QA.svg"
   },
   {
-    "currencyName": "Romanian Leu",
-    "currencyCode": "RON",
-    "displayName": "Romanian Leu - (RON)",
-    "countryName": "Romania",
-    "countryCode": ["+40"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RO.svg",
-    "timezones": { "Europe/Bucharest": "+03:00" },
+    "country": "Romania",
+    "capital": ["Bucharest"],
     "iso": { "alpha-2": "RO", "alpha-3": "ROU", "numeric": "642" },
-    "region": "Europe"
+    "currency": { "RON": { "name": "Romanian leu", "symbol": "lei" } },
+    "dial_code": ["+40"],
+    "timezone": { "Europe/Bucharest": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RO.svg"
   },
   {
-    "currencyName": "Serbian Dinar",
-    "currencyCode": "RSD",
-    "displayName": "Serbian Dinar - (RSD)",
-    "countryName": "Serbia",
-    "countryCode": ["+381"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RS.svg",
-    "timezones": { "Europe/Belgrade": "+02:00" },
-    "iso": { "alpha-2": "RS", "alpha-3": "SRB", "numeric": "688" },
-    "region": "Europe"
+    "country": "Russian Federation",
+    "capital": ["Moscow"],
+    "iso": { "alpha-2": "RU", "alpha-3": "RUS", "numeric": "643" },
+    "currency": { "RUB": { "name": "Russian ruble", "symbol": "₽" } },
+    "dial_code": ["+7"],
+    "timezone": {
+      "Asia/Anadyr": "+12:00",
+      "Asia/Barnaul": "+07:00",
+      "Asia/Chita": "+09:00",
+      "Asia/Irkutsk": "+08:00",
+      "Asia/Kamchatka": "+12:00",
+      "Asia/Khandyga": "+09:00",
+      "Asia/Krasnoyarsk": "+07:00",
+      "Asia/Magadan": "+11:00",
+      "Asia/Novokuznetsk": "+07:00",
+      "Asia/Novosibirsk": "+07:00",
+      "Asia/Omsk": "+06:00",
+      "Asia/Sakhalin": "+11:00",
+      "Asia/Srednekolymsk": "+11:00",
+      "Asia/Tomsk": "+07:00",
+      "Asia/Ust-Nera": "+10:00",
+      "Asia/Vladivostok": "+10:00",
+      "Asia/Yakutsk": "+09:00",
+      "Asia/Yekaterinburg": "+05:00",
+      "Europe/Astrakhan": "+04:00",
+      "Europe/Kaliningrad": "+02:00",
+      "Europe/Kirov": "+03:00",
+      "Europe/Moscow": "+03:00",
+      "Europe/Samara": "+04:00",
+      "Europe/Saratov": "+04:00",
+      "Europe/Ulyanovsk": "+04:00",
+      "Europe/Volgograd": "+03:00"
+    },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RU.svg"
   },
   {
-    "currencyName": "Russian Ruble",
-    "currencyCode": "RUB",
-    "displayName": "Russian Ruble - (RUB)",
-    "countryName": "Russia"
-  },
-  {
-    "currencyName": "Rwandan Franc",
-    "currencyCode": "RWF",
-    "displayName": "Rwandan Franc - (RWF)",
-    "countryName": "Rwanda",
-    "countryCode": ["+250"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RW.svg",
-    "timezones": { "Africa/Kigali": "+02:00" },
+    "country": "Rwanda",
+    "capital": ["Kigali"],
     "iso": { "alpha-2": "RW", "alpha-3": "RWA", "numeric": "646" },
-    "region": "Africa"
+    "currency": { "RWF": { "name": "Rwandan franc", "symbol": "Fr" } },
+    "dial_code": ["+250"],
+    "timezone": { "Africa/Kigali": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RW.svg"
   },
   {
-    "currencyName": "Saudi Riyal",
-    "currencyCode": "SAR",
-    "displayName": "Saudi Riyal - (SAR)",
-    "countryName": "Saudi Arabia",
-    "countryCode": ["+966"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SA.svg",
-    "timezones": { "Asia/Riyadh": "+03:00" },
-    "iso": { "alpha-2": "SA", "alpha-3": "SAU", "numeric": "682" },
-    "region": "Asia"
+    "country": "Réunion",
+    "capital": ["Saint-Denis"],
+    "iso": { "alpha-2": "RE", "alpha-3": "REU", "numeric": "638" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+262"],
+    "timezone": { "Indian/Reunion": "+04:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RE.svg"
   },
   {
-    "currencyName": "Solomon Islands Dollar",
-    "currencyCode": "SBD",
-    "displayName": "Solomon Islands Dollar - (SBD)",
-    "countryName": "Solomon Islands",
-    "countryCode": ["+677"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SB.svg",
-    "timezones": { "Pacific/Guadalcanal": "+11:00" },
-    "iso": { "alpha-2": "SB", "alpha-3": "SLB", "numeric": "090" },
-    "region": "Oceania"
+    "country": "Saint Barthélemy",
+    "capital": ["Gustavia"],
+    "iso": { "alpha-2": "BL", "alpha-3": "BLM", "numeric": "652" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+590"],
+    "timezone": { "America/St_Barthelemy": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BL.svg"
   },
   {
-    "currencyName": "Seychellois Rupee",
-    "currencyCode": "SCR",
-    "displayName": "Seychellois Rupee - (SCR)",
-    "countryName": "Seychelles",
-    "countryCode": ["+248"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SC.svg",
-    "timezones": { "Indian/Mahe": "+04:00" },
-    "iso": { "alpha-2": "SC", "alpha-3": "SYC", "numeric": "690" },
-    "region": "Africa"
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": ["Jamestown"],
+    "iso": { "alpha-2": "SH", "alpha-3": "SHN", "numeric": "654" },
+    "currency": {
+      "GBP": { "name": "Pound sterling", "symbol": "£" },
+      "SHP": { "name": "Saint Helena pound", "symbol": "£" }
+    },
+    "dial_code": ["+290"],
+    "timezone": { "Atlantic/St_Helena": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SH.svg"
   },
   {
-    "currencyName": "Sudanese Pound",
-    "currencyCode": "SDG",
-    "displayName": "Sudanese Pound - (SDG)",
-    "countryName": "Sudan",
-    "countryCode": ["+249"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SD.svg",
-    "timezones": { "Africa/Khartoum": "+02:00" },
-    "iso": { "alpha-2": "SD", "alpha-3": "SDN", "numeric": "729" },
-    "region": "Africa"
+    "country": "Saint Kitts and Nevis",
+    "capital": ["Basseterre"],
+    "iso": { "alpha-2": "KN", "alpha-3": "KNA", "numeric": "659" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-869"],
+    "timezone": { "America/St_Kitts": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/KN.svg"
   },
   {
-    "currencyName": "Swedish Krona",
-    "currencyCode": "SEK",
-    "displayName": "Swedish Krona - (SEK)",
-    "countryName": "Sweden",
-    "countryCode": ["+46"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SE.svg",
-    "timezones": { "Europe/Stockholm": "+02:00" },
-    "iso": { "alpha-2": "SE", "alpha-3": "SWE", "numeric": "752" },
-    "region": "Europe"
+    "country": "Saint Lucia",
+    "capital": ["Castries"],
+    "iso": { "alpha-2": "LC", "alpha-3": "LCA", "numeric": "662" },
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-758"],
+    "timezone": { "America/St_Lucia": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LC.svg"
   },
   {
-    "currencyName": "Singapore Dollar",
-    "currencyCode": "SGD",
-    "displayName": "Singapore Dollar - (SGD)",
-    "countryName": "Singapore",
-    "countryCode": ["+65"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SG.svg",
-    "timezones": { "Asia/Singapore": "+08:00" },
-    "iso": { "alpha-2": "SG", "alpha-3": "SGP", "numeric": "702" },
-    "region": "Asia"
+    "country": "Saint Martin (French part)",
+    "capital": ["Marigot"],
+    "iso": { "alpha-2": "MF", "alpha-3": "MAF", "numeric": "663" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+590"],
+    "timezone": { "America/Marigot": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/MF.svg"
   },
   {
-    "currencyName": "Saint Helena Pound",
-    "currencyCode": "SHP",
-    "displayName": "Saint Helena Pound - (SHP)",
-    "countryName": "Saint Helena"
+    "country": "Saint Pierre and Miquelon",
+    "capital": ["Saint-Pierre"],
+    "iso": { "alpha-2": "PM", "alpha-3": "SPM", "numeric": "666" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+508"],
+    "timezone": { "America/Miquelon": "-02:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/PM.svg"
   },
   {
-    "currencyName": "Sierra Leonean Leone",
-    "currencyCode": "SLL",
-    "displayName": "Sierra Leonean Leone - (SLL)",
-    "countryName": "Sierra Leone",
-    "countryCode": ["+232"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SL.svg",
-    "timezones": { "Africa/Freetown": "+00:00" },
-    "iso": { "alpha-2": "SL", "alpha-3": "SLE", "numeric": "694" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Somali Shilling",
-    "currencyCode": "SOS",
-    "displayName": "Somali Shilling - (SOS)",
-    "countryName": "Somalia",
-    "countryCode": ["+252"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SO.svg",
-    "timezones": { "Africa/Mogadishu": "+03:00" },
-    "iso": { "alpha-2": "SO", "alpha-3": "SOM", "numeric": "706" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Surinamese Dollar",
-    "currencyCode": "SRD",
-    "displayName": "Surinamese Dollar - (SRD)",
-    "countryName": "Suriname",
-    "countryCode": ["+597"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SR.svg",
-    "timezones": { "America/Paramaribo": "-03:00" },
-    "iso": { "alpha-2": "SR", "alpha-3": "SUR", "numeric": "740" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "South Sudanese Pound",
-    "currencyCode": "SSP",
-    "displayName": "South Sudanese Pound - (SSP)",
-    "countryName": "South Sudan",
-    "countryCode": ["+211"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SS.svg",
-    "timezones": { "Africa/Juba": "+02:00" },
-    "iso": { "alpha-2": "SS", "alpha-3": "SSD", "numeric": "728" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "São Tomé and Príncipe Dobra (pre-2018)",
-    "currencyCode": "STD",
-    "displayName": "São Tomé and Príncipe Dobra (pre-2018) - (STD)",
-    "countryName": "São Tomé and Príncipe"
-  },
-  {
-    "currencyName": "São Tomé and Príncipe Dobra",
-    "currencyCode": "STN",
-    "displayName": "São Tomé and Príncipe Dobra - (STN)",
-    "countryName": "São Tomé and Príncipe"
-  },
-  {
-    "currencyName": "United States Dollar",
-    "currencyCode": "USD",
-    "displayName": "United States Dollar - (USD)",
-    "countryName": "El Salvador",
-    "countryCode": ["+503"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SV.svg",
-    "timezones": { "America/El_Salvador": "-06:00" },
-    "iso": { "alpha-2": "SV", "alpha-3": "SLV", "numeric": "222" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Syrian Pound",
-    "currencyCode": "SYP",
-    "displayName": "Syrian Pound - (SYP)",
-    "countryName": "Syria"
-  },
-  {
-    "currencyName": "Swazi Lilangeni",
-    "currencyCode": "SZL",
-    "displayName": "Swazi Lilangeni - (SZL)",
-    "countryName": "Swaziland",
-    "countryCode": ["+268"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SZ.svg",
-    "timezones": { "Africa/Mbabane": "+02:00" },
-    "iso": { "alpha-2": "SZ", "alpha-3": "SWZ", "numeric": "748" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Thai Baht",
-    "currencyCode": "THB",
-    "displayName": "Thai Baht - (THB)",
-    "countryName": "Thailand",
-    "countryCode": ["+66"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TH.svg",
-    "timezones": { "Asia/Bangkok": "+07:00" },
-    "iso": { "alpha-2": "TH", "alpha-3": "THA", "numeric": "764" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Tajikistani Somoni",
-    "currencyCode": "TJS",
-    "displayName": "Tajikistani Somoni - (TJS)",
-    "countryName": "Tajikistan",
-    "countryCode": ["+992"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TJ.svg",
-    "timezones": { "Asia/Dushanbe": "+05:00" },
-    "iso": { "alpha-2": "TJ", "alpha-3": "TJK", "numeric": "762" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Turkmenistani Manat",
-    "currencyCode": "TMT",
-    "displayName": "Turkmenistani Manat - (TMT)",
-    "countryName": "Turkmenistan",
-    "countryCode": ["+993"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TM.svg",
-    "timezones": { "Asia/Ashgabat": "+05:00" },
-    "iso": { "alpha-2": "TM", "alpha-3": "TKM", "numeric": "795" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Tunisian Dinar",
-    "currencyCode": "TND",
-    "displayName": "Tunisian Dinar - (TND)",
-    "countryName": "Tunisia",
-    "countryCode": ["+216"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TN.svg",
-    "timezones": { "Africa/Tunis": "+01:00" },
-    "iso": { "alpha-2": "TN", "alpha-3": "TUN", "numeric": "788" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "Tongan Pa'anga",
-    "currencyCode": "TOP",
-    "displayName": "Tongan Pa'anga - (TOP)",
-    "countryName": "Tonga",
-    "countryCode": ["+676"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TO.svg",
-    "timezones": { "Pacific/Tongatapu": "+13:00" },
-    "iso": { "alpha-2": "TO", "alpha-3": "TON", "numeric": "776" },
-    "region": "Oceania"
-  },
-  {
-    "currencyName": "Turkish Lira",
-    "currencyCode": "TRY",
-    "displayName": "Turkish Lira - (TRY)",
-    "countryName": "Turkey",
-    "countryCode": ["+90"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TR.svg",
-    "timezones": { "Europe/Istanbul": "+03:00" },
-    "iso": { "alpha-2": "TR", "alpha-3": "TUR", "numeric": "792" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Trinidad and Tobago Dollar",
-    "currencyCode": "TTD",
-    "displayName": "Trinidad and Tobago Dollar - (TTD)",
-    "countryName": "Trinidad and Tobago",
-    "countryCode": ["+1-868"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TT.svg",
-    "timezones": { "America/Port_of_Spain": "-04:00" },
-    "iso": { "alpha-2": "TT", "alpha-3": "TTO", "numeric": "780" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "New Taiwan Dollar",
-    "currencyCode": "TWD",
-    "displayName": "New Taiwan Dollar - (TWD)",
-    "countryName": "Taiwan"
-  },
-  {
-    "currencyName": "Tanzanian Shilling",
-    "currencyCode": "TZS",
-    "displayName": "Tanzanian Shilling - (TZS)",
-    "countryName": "Tanzania"
-  },
-  {
-    "currencyName": "Ukrainian Hryvnia",
-    "currencyCode": "UAH",
-    "displayName": "Ukrainian Hryvnia - (UAH)",
-    "countryName": "Ukraine",
-    "countryCode": ["+380"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UA.svg",
-    "timezones": { "Europe/Kyiv": "+03:00", "Europe/Simferopol": "+03:00" },
-    "iso": { "alpha-2": "UA", "alpha-3": "UKR", "numeric": "804" },
-    "region": "Europe"
-  },
-  {
-    "currencyName": "Ugandan Shilling",
-    "currencyCode": "UGX",
-    "displayName": "Ugandan Shilling - (UGX)",
-    "countryName": "Uganda",
-    "countryCode": ["+256"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UG.svg",
-    "timezones": { "Africa/Kampala": "+03:00" },
-    "iso": { "alpha-2": "UG", "alpha-3": "UGA", "numeric": "800" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "United States Dollar",
-    "currencyCode": "USD",
-    "displayName": "United States Dollar - (USD)",
-    "countryName": "U.S. Virgin Islands"
-  },
-  {
-    "currencyName": "Uruguayan Peso",
-    "currencyCode": "UYU",
-    "displayName": "Uruguayan Peso - (UYU)",
-    "countryName": "Uruguay",
-    "countryCode": ["+598"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UY.svg",
-    "timezones": { "America/Montevideo": "-03:00" },
-    "iso": { "alpha-2": "UY", "alpha-3": "URY", "numeric": "858" },
-    "region": "Americas"
-  },
-  {
-    "currencyName": "Uzbekistan Som",
-    "currencyCode": "UZS",
-    "displayName": "Uzbekistan Som - (UZS)",
-    "countryName": "Uzbekistan",
-    "countryCode": ["+998"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UZ.svg",
-    "timezones": { "Asia/Samarkand": "+05:00", "Asia/Tashkent": "+05:00" },
-    "iso": { "alpha-2": "UZ", "alpha-3": "UZB", "numeric": "860" },
-    "region": "Asia"
-  },
-  {
-    "currencyName": "Venezuelan Bolívar Soberano",
-    "currencyCode": "VES",
-    "displayName": "Venezuelan Bolívar Soberano - (VES)",
-    "countryName": "Venezuela"
-  },
-  {
-    "currencyName": "Vietnamese Dong",
-    "currencyCode": "VND",
-    "displayName": "Vietnamese Dong - (VND)",
-    "countryName": "Vietnam"
-  },
-  {
-    "currencyName": "Vanuatu Vatu",
-    "currencyCode": "VUV",
-    "displayName": "Vanuatu Vatu - (VUV)",
-    "countryName": "Vanuatu",
-    "countryCode": ["+678"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VU.svg",
-    "timezones": { "Pacific/Efate": "+11:00" },
-    "iso": { "alpha-2": "VU", "alpha-3": "VUT", "numeric": "548" },
-    "region": "Oceania"
-  },
-  {
-    "currencyName": "Samoan Tala",
-    "currencyCode": "WST",
-    "displayName": "Samoan Tala - (WST)",
-    "countryName": "Samoa",
-    "countryCode": ["+685"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg",
-    "timezones": { "Pacific/Apia": "+13:00" },
-    "iso": { "alpha-2": "WS", "alpha-3": "WSM", "numeric": "882" },
-    "region": "Oceania"
-  },
-  {
-    "currencyName": "CFA Franc BEAC",
-    "currencyCode": "XAF",
-    "displayName": "CFA Franc BEAC - (XAF)",
-    "countryName": "Chad",
-    "countryCode": ["+235"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TD.svg",
-    "timezones": { "Africa/Ndjamena": "+01:00" },
-    "iso": { "alpha-2": "TD", "alpha-3": "TCD", "numeric": "148" },
-    "region": "Africa"
-  },
-  {
-    "currencyName": "East Caribbean Dollar",
-    "currencyCode": "XCD",
-    "displayName": "East Caribbean Dollar - (XCD)",
-    "countryName": "Saint Vincent and the Grenadines",
-    "countryCode": ["+1-784"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VC.svg",
-    "timezones": { "America/St_Vincent": "-04:00" },
+    "country": "Saint Vincent and the Grenadines",
+    "capital": ["Kingstown"],
     "iso": { "alpha-2": "VC", "alpha-3": "VCT", "numeric": "670" },
-    "region": "Americas"
+    "currency": {
+      "XCD": { "name": "Eastern Caribbean dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-784"],
+    "timezone": { "America/St_Vincent": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VC.svg"
   },
   {
-    "currencyName": "CFA Franc BCEAO",
-    "currencyCode": "XOF",
-    "displayName": "CFA Franc BCEAO - (XOF)",
-    "countryName": "Togo",
-    "countryCode": ["+228"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TG.svg",
-    "timezones": { "Africa/Lome": "+00:00" },
-    "iso": { "alpha-2": "TG", "alpha-3": "TGO", "numeric": "768" },
-    "region": "Africa"
+    "country": "Samoa",
+    "capital": ["Apia"],
+    "iso": { "alpha-2": "WS", "alpha-3": "WSM", "numeric": "882" },
+    "currency": { "WST": { "name": "Samoan tālā", "symbol": "T" } },
+    "dial_code": ["+685"],
+    "timezone": { "Pacific/Apia": "+13:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WS.svg"
   },
   {
-    "currencyName": "CFP Franc",
-    "currencyCode": "XPF",
-    "displayName": "CFP Franc - (XPF)",
-    "countryName": "Wallis and Futuna",
-    "countryCode": ["+681"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WF.svg",
-    "timezones": { "Pacific/Wallis": "+12:00" },
-    "iso": { "alpha-2": "WF", "alpha-3": "WLF", "numeric": "876" },
-    "region": "Oceania"
+    "country": "San Marino",
+    "capital": ["City of San Marino"],
+    "iso": { "alpha-2": "SM", "alpha-3": "SMR", "numeric": "674" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+378"],
+    "timezone": { "Europe/San_Marino": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SM.svg"
   },
   {
-    "currencyName": "Yemeni Rial",
-    "currencyCode": "YER",
-    "displayName": "Yemeni Rial - (YER)",
-    "countryName": "Yemen",
-    "countryCode": ["+967"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YE.svg",
-    "timezones": { "Asia/Aden": "+03:00" },
-    "iso": { "alpha-2": "YE", "alpha-3": "YEM", "numeric": "887" },
-    "region": "Asia"
+    "country": "Sao Tome and Principe",
+    "capital": ["São Tomé"],
+    "iso": { "alpha-2": "ST", "alpha-3": "STP", "numeric": "678" },
+    "currency": {
+      "STN": { "name": "São Tomé and Príncipe dobra", "symbol": "Db" }
+    },
+    "dial_code": ["+239"],
+    "timezone": { "Africa/Sao_Tome": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ST.svg"
   },
   {
-    "currencyName": "South African Rand",
-    "currencyCode": "ZAR",
-    "displayName": "South African Rand - (ZAR)",
-    "countryName": "South Africa",
-    "countryCode": ["+27"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZA.svg",
-    "timezones": { "Africa/Johannesburg": "+02:00" },
+    "country": "Saudi Arabia",
+    "capital": ["Riyadh"],
+    "iso": { "alpha-2": "SA", "alpha-3": "SAU", "numeric": "682" },
+    "currency": { "SAR": { "name": "Saudi riyal", "symbol": "ر.س" } },
+    "dial_code": ["+966"],
+    "timezone": { "Asia/Riyadh": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SA.svg"
+  },
+  {
+    "country": "Senegal",
+    "capital": ["Dakar"],
+    "iso": { "alpha-2": "SN", "alpha-3": "SEN", "numeric": "686" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+221"],
+    "timezone": { "Africa/Dakar": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SN.svg"
+  },
+  {
+    "country": "Serbia",
+    "capital": ["Belgrade"],
+    "iso": { "alpha-2": "RS", "alpha-3": "SRB", "numeric": "688" },
+    "currency": { "RSD": { "name": "Serbian dinar", "symbol": "дин." } },
+    "dial_code": ["+381"],
+    "timezone": { "Europe/Belgrade": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/RS.svg"
+  },
+  {
+    "country": "Seychelles",
+    "capital": ["Victoria"],
+    "iso": { "alpha-2": "SC", "alpha-3": "SYC", "numeric": "690" },
+    "currency": { "SCR": { "name": "Seychellois rupee", "symbol": "₨" } },
+    "dial_code": ["+248"],
+    "timezone": { "Indian/Mahe": "+04:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SC.svg"
+  },
+  {
+    "country": "Sierra Leone",
+    "capital": ["Freetown"],
+    "iso": { "alpha-2": "SL", "alpha-3": "SLE", "numeric": "694" },
+    "currency": { "SLL": { "name": "Sierra Leonean leone", "symbol": "Le" } },
+    "dial_code": ["+232"],
+    "timezone": { "Africa/Freetown": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SL.svg"
+  },
+  {
+    "country": "Singapore",
+    "capital": ["Singapore"],
+    "iso": { "alpha-2": "SG", "alpha-3": "SGP", "numeric": "702" },
+    "currency": { "SGD": { "name": "Singapore dollar", "symbol": "$" } },
+    "dial_code": ["+65"],
+    "timezone": { "Asia/Singapore": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SG.svg"
+  },
+  {
+    "country": "Sint Maarten (Dutch part)",
+    "capital": ["Philipsburg"],
+    "iso": { "alpha-2": "SX", "alpha-3": "SXM", "numeric": "534" },
+    "currency": {
+      "ANG": { "name": "Netherlands Antillean guilder", "symbol": "ƒ" }
+    },
+    "dial_code": ["+599"],
+    "timezone": { "America/Lower_Princes": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SX.svg"
+  },
+  {
+    "country": "Slovakia",
+    "capital": ["Bratislava"],
+    "iso": { "alpha-2": "SK", "alpha-3": "SVK", "numeric": "703" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+421"],
+    "timezone": { "Europe/Bratislava": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SK.svg"
+  },
+  {
+    "country": "Slovenia",
+    "capital": ["Ljubljana"],
+    "iso": { "alpha-2": "SI", "alpha-3": "SVN", "numeric": "705" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+386"],
+    "timezone": { "Europe/Ljubljana": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SI.svg"
+  },
+  {
+    "country": "Solomon Islands",
+    "capital": ["Honiara"],
+    "iso": { "alpha-2": "SB", "alpha-3": "SLB", "numeric": "090" },
+    "currency": { "SBD": { "name": "Solomon Islands dollar", "symbol": "$" } },
+    "dial_code": ["+677"],
+    "timezone": { "Pacific/Guadalcanal": "+11:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SB.svg"
+  },
+  {
+    "country": "Somalia",
+    "capital": ["Mogadishu"],
+    "iso": { "alpha-2": "SO", "alpha-3": "SOM", "numeric": "706" },
+    "currency": { "SOS": { "name": "Somali shilling", "symbol": "Sh" } },
+    "dial_code": ["+252"],
+    "timezone": { "Africa/Mogadishu": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SO.svg"
+  },
+  {
+    "country": "South Africa",
+    "capital": ["Pretoria", "Bloemfontein", "Cape Town"],
     "iso": { "alpha-2": "ZA", "alpha-3": "ZAF", "numeric": "710" },
-    "region": "Africa"
+    "currency": { "ZAR": { "name": "South African rand", "symbol": "R" } },
+    "dial_code": ["+27"],
+    "timezone": { "Africa/Johannesburg": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZA.svg"
   },
   {
-    "currencyName": "Zambian Kwacha",
-    "currencyCode": "ZMW",
-    "displayName": "Zambian Kwacha - (ZMW)",
-    "countryName": "Zambia",
-    "countryCode": ["+260"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZM.svg",
-    "timezones": { "Africa/Lusaka": "+02:00" },
+    "country": "South Georgia and the South Sandwich Islands",
+    "capital": ["King Edward Point"],
+    "iso": { "alpha-2": "GS", "alpha-3": "SGS", "numeric": "239" },
+    "currency": { "SHP": { "name": "Saint Helena pound", "symbol": "£" } },
+    "dial_code": ["+"],
+    "timezone": { "Atlantic/South_Georgia": "-02:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GS.svg"
+  },
+  {
+    "country": "South Sudan",
+    "capital": ["Juba"],
+    "iso": { "alpha-2": "SS", "alpha-3": "SSD", "numeric": "728" },
+    "currency": { "SSP": { "name": "South Sudanese pound", "symbol": "£" } },
+    "dial_code": ["+211"],
+    "timezone": { "Africa/Juba": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SS.svg"
+  },
+  {
+    "country": "Spain",
+    "capital": ["Madrid"],
+    "iso": { "alpha-2": "ES", "alpha-3": "ESP", "numeric": "724" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+34"],
+    "timezone": {
+      "Africa/Ceuta": "+02:00",
+      "Atlantic/Canary": "+01:00",
+      "Europe/Madrid": "+02:00"
+    },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ES.svg"
+  },
+  {
+    "country": "Sri Lanka",
+    "capital": ["Sri Jayawardenepura Kotte"],
+    "iso": { "alpha-2": "LK", "alpha-3": "LKA", "numeric": "144" },
+    "currency": { "LKR": { "name": "Sri Lankan rupee", "symbol": "Rs  රු" } },
+    "dial_code": ["+94"],
+    "timezone": { "Asia/Colombo": "+05:30" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/LK.svg"
+  },
+  {
+    "country": "Sudan",
+    "capital": ["Khartoum"],
+    "iso": { "alpha-2": "SD", "alpha-3": "SDN", "numeric": "729" },
+    "currency": { "SDG": { "name": "Sudanese pound" } },
+    "dial_code": ["+249"],
+    "timezone": { "Africa/Khartoum": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SD.svg"
+  },
+  {
+    "country": "Suriname",
+    "capital": ["Paramaribo"],
+    "iso": { "alpha-2": "SR", "alpha-3": "SUR", "numeric": "740" },
+    "currency": { "SRD": { "name": "Surinamese dollar", "symbol": "$" } },
+    "dial_code": ["+597"],
+    "timezone": { "America/Paramaribo": "-03:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SR.svg"
+  },
+  {
+    "country": "Svalbard and Jan Mayen",
+    "capital": ["Longyearbyen"],
+    "iso": { "alpha-2": "SJ", "alpha-3": "SJM", "numeric": "744" },
+    "currency": { "NOK": { "name": "krone", "symbol": "kr" } },
+    "dial_code": ["+47"],
+    "timezone": { "Arctic/Longyearbyen": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SJ.svg"
+  },
+  {
+    "country": "Swaziland",
+    "capital": ["Mbabane"],
+    "iso": { "alpha-2": "SZ", "alpha-3": "SWZ", "numeric": "748" },
+    "currency": {
+      "SZL": { "name": "Swazi lilangeni", "symbol": "L" },
+      "ZAR": { "name": "South African rand", "symbol": "R" }
+    },
+    "dial_code": ["+268"],
+    "timezone": { "Africa/Mbabane": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SZ.svg"
+  },
+  {
+    "country": "Sweden",
+    "capital": ["Stockholm"],
+    "iso": { "alpha-2": "SE", "alpha-3": "SWE", "numeric": "752" },
+    "currency": { "SEK": { "name": "Swedish krona", "symbol": "kr" } },
+    "dial_code": ["+46"],
+    "timezone": { "Europe/Stockholm": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SE.svg"
+  },
+  {
+    "country": "Switzerland",
+    "capital": ["Bern"],
+    "iso": { "alpha-2": "CH", "alpha-3": "CHE", "numeric": "756" },
+    "currency": { "CHF": { "name": "Swiss franc", "symbol": "Fr." } },
+    "dial_code": ["+41"],
+    "timezone": { "Europe/Zurich": "+02:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/CH.svg"
+  },
+  {
+    "country": "Syrian Arab Republic",
+    "capital": ["Damascus"],
+    "iso": { "alpha-2": "SY", "alpha-3": "SYR", "numeric": "760" },
+    "currency": { "SYP": { "name": "Syrian pound", "symbol": "£" } },
+    "dial_code": ["+963"],
+    "timezone": { "Asia/Damascus": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/SY.svg"
+  },
+  {
+    "country": "Taiwan, Province of China",
+    "capital": ["Taipei"],
+    "iso": { "alpha-2": "TW", "alpha-3": "TWN", "numeric": "158" },
+    "currency": { "TWD": { "name": "New Taiwan dollar", "symbol": "$" } },
+    "dial_code": ["+886"],
+    "timezone": { "Asia/Taipei": "+08:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TW.svg"
+  },
+  {
+    "country": "Tajikistan",
+    "capital": ["Dushanbe"],
+    "iso": { "alpha-2": "TJ", "alpha-3": "TJK", "numeric": "762" },
+    "currency": { "TJS": { "name": "Tajikistani somoni", "symbol": "ЅМ" } },
+    "dial_code": ["+992"],
+    "timezone": { "Asia/Dushanbe": "+05:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TJ.svg"
+  },
+  {
+    "country": "Tanzania, United Republic of",
+    "capital": ["Dodoma"],
+    "iso": { "alpha-2": "TZ", "alpha-3": "TZA", "numeric": "834" },
+    "currency": { "TZS": { "name": "Tanzanian shilling", "symbol": "Sh" } },
+    "dial_code": ["+255"],
+    "timezone": { "Africa/Dar_es_Salaam": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TZ.svg"
+  },
+  {
+    "country": "Thailand",
+    "capital": ["Bangkok"],
+    "iso": { "alpha-2": "TH", "alpha-3": "THA", "numeric": "764" },
+    "currency": { "THB": { "name": "Thai baht", "symbol": "฿" } },
+    "dial_code": ["+66"],
+    "timezone": { "Asia/Bangkok": "+07:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TH.svg"
+  },
+  {
+    "country": "Timor-Leste",
+    "capital": ["Dili"],
+    "iso": { "alpha-2": "TL", "alpha-3": "TLS", "numeric": "626" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+670"],
+    "timezone": { "Asia/Dili": "+09:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TL.svg"
+  },
+  {
+    "country": "Togo",
+    "capital": ["Lomé"],
+    "iso": { "alpha-2": "TG", "alpha-3": "TGO", "numeric": "768" },
+    "currency": { "XOF": { "name": "West African CFA franc", "symbol": "Fr" } },
+    "dial_code": ["+228"],
+    "timezone": { "Africa/Lome": "+00:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TG.svg"
+  },
+  {
+    "country": "Tokelau",
+    "capital": ["Fakaofo"],
+    "iso": { "alpha-2": "TK", "alpha-3": "TKL", "numeric": "772" },
+    "currency": { "NZD": { "name": "New Zealand dollar", "symbol": "$" } },
+    "dial_code": ["+690"],
+    "timezone": { "Pacific/Fakaofo": "+13:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TK.svg"
+  },
+  {
+    "country": "Tonga",
+    "capital": ["Nuku'alofa"],
+    "iso": { "alpha-2": "TO", "alpha-3": "TON", "numeric": "776" },
+    "currency": { "TOP": { "name": "Tongan paʻanga", "symbol": "T$" } },
+    "dial_code": ["+676"],
+    "timezone": { "Pacific/Tongatapu": "+13:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TO.svg"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "capital": ["Port of Spain"],
+    "iso": { "alpha-2": "TT", "alpha-3": "TTO", "numeric": "780" },
+    "currency": {
+      "TTD": { "name": "Trinidad and Tobago dollar", "symbol": "$" }
+    },
+    "dial_code": ["+1-868"],
+    "timezone": { "America/Port_of_Spain": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TT.svg"
+  },
+  {
+    "country": "Tunisia",
+    "capital": ["Tunis"],
+    "iso": { "alpha-2": "TN", "alpha-3": "TUN", "numeric": "788" },
+    "currency": { "TND": { "name": "Tunisian dinar", "symbol": "د.ت" } },
+    "dial_code": ["+216"],
+    "timezone": { "Africa/Tunis": "+01:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TN.svg"
+  },
+  {
+    "country": "Turkey",
+    "capital": ["Ankara"],
+    "iso": { "alpha-2": "TR", "alpha-3": "TUR", "numeric": "792" },
+    "currency": { "TRY": { "name": "Turkish lira", "symbol": "₺" } },
+    "dial_code": ["+90"],
+    "timezone": { "Europe/Istanbul": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TR.svg"
+  },
+  {
+    "country": "Turkmenistan",
+    "capital": ["Ashgabat"],
+    "iso": { "alpha-2": "TM", "alpha-3": "TKM", "numeric": "795" },
+    "currency": { "TMT": { "name": "Turkmenistan manat", "symbol": "m" } },
+    "dial_code": ["+993"],
+    "timezone": { "Asia/Ashgabat": "+05:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TM.svg"
+  },
+  {
+    "country": "Turks and Caicos Islands",
+    "capital": ["Cockburn Town"],
+    "iso": { "alpha-2": "TC", "alpha-3": "TCA", "numeric": "796" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-649"],
+    "timezone": { "America/Grand_Turk": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TC.svg"
+  },
+  {
+    "country": "Tuvalu",
+    "capital": ["Funafuti"],
+    "iso": { "alpha-2": "TV", "alpha-3": "TUV", "numeric": "798" },
+    "currency": {
+      "AUD": { "name": "Australian dollar", "symbol": "$" },
+      "TVD": { "name": "Tuvaluan dollar", "symbol": "$" }
+    },
+    "dial_code": ["+688"],
+    "timezone": { "Pacific/Funafuti": "+12:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/TV.svg"
+  },
+  {
+    "country": "Uganda",
+    "capital": ["Kampala"],
+    "iso": { "alpha-2": "UG", "alpha-3": "UGA", "numeric": "800" },
+    "currency": { "UGX": { "name": "Ugandan shilling", "symbol": "Sh" } },
+    "dial_code": ["+256"],
+    "timezone": { "Africa/Kampala": "+03:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UG.svg"
+  },
+  {
+    "country": "Ukraine",
+    "capital": ["Kyiv"],
+    "iso": { "alpha-2": "UA", "alpha-3": "UKR", "numeric": "804" },
+    "currency": { "UAH": { "name": "Ukrainian hryvnia", "symbol": "₴" } },
+    "dial_code": ["+380"],
+    "timezone": { "Europe/Kyiv": "+03:00", "Europe/Simferopol": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UA.svg"
+  },
+  {
+    "country": "United Arab Emirates",
+    "capital": ["Abu Dhabi"],
+    "iso": { "alpha-2": "AE", "alpha-3": "ARE", "numeric": "784" },
+    "currency": {
+      "AED": { "name": "United Arab Emirates dirham", "symbol": "د.إ" }
+    },
+    "dial_code": ["+971"],
+    "timezone": { "Asia/Dubai": "+04:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg"
+  },
+  {
+    "country": "United Kingdom",
+    "capital": ["London"],
+    "iso": { "alpha-2": "GB", "alpha-3": "GBR", "numeric": "826" },
+    "currency": { "GBP": { "name": "British pound", "symbol": "£" } },
+    "dial_code": ["+44"],
+    "timezone": { "Europe/London": "+01:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/GB.svg"
+  },
+  {
+    "country": "United States",
+    "capital": ["Washington, D.C."],
+    "iso": { "alpha-2": "US", "alpha-3": "USA", "numeric": "840" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1"],
+    "timezone": {
+      "America/Adak": "-09:00",
+      "America/Anchorage": "-08:00",
+      "America/Boise": "-06:00",
+      "America/Chicago": "-05:00",
+      "America/Denver": "-06:00",
+      "America/Detroit": "-04:00",
+      "America/Indiana/Indianapolis": "-04:00",
+      "America/Indiana/Knox": "-05:00",
+      "America/Indiana/Marengo": "-04:00",
+      "America/Indiana/Petersburg": "-04:00",
+      "America/Indiana/Tell_City": "-05:00",
+      "America/Indiana/Vevay": "-04:00",
+      "America/Indiana/Vincennes": "-04:00",
+      "America/Indiana/Winamac": "-04:00",
+      "America/Juneau": "-08:00",
+      "America/Kentucky/Louisville": "-04:00",
+      "America/Kentucky/Monticello": "-04:00",
+      "America/Los_Angeles": "-07:00",
+      "America/Menominee": "-05:00",
+      "America/Metlakatla": "-08:00",
+      "America/New_York": "-04:00",
+      "America/Nome": "-08:00",
+      "America/North_Dakota/Beulah": "-05:00",
+      "America/North_Dakota/Center": "-05:00",
+      "America/North_Dakota/New_Salem": "-05:00",
+      "America/Phoenix": "-07:00",
+      "America/Sitka": "-08:00",
+      "America/Yakutat": "-08:00",
+      "Pacific/Honolulu": "-10:00"
+    },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/US.svg"
+  },
+  {
+    "country": "United States Minor Outlying Islands",
+    "capital": ["Washington DC"],
+    "iso": { "alpha-2": "UM", "alpha-3": "UMI", "numeric": "581" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1"],
+    "timezone": { "Pacific/Midway": "-11:00", "Pacific/Wake": "+12:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UM.svg"
+  },
+  {
+    "country": "Uruguay",
+    "capital": ["Montevideo"],
+    "iso": { "alpha-2": "UY", "alpha-3": "URY", "numeric": "858" },
+    "currency": { "UYU": { "name": "Uruguayan peso", "symbol": "$" } },
+    "dial_code": ["+598"],
+    "timezone": { "America/Montevideo": "-03:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UY.svg"
+  },
+  {
+    "country": "Uzbekistan",
+    "capital": ["Tashkent"],
+    "iso": { "alpha-2": "UZ", "alpha-3": "UZB", "numeric": "860" },
+    "currency": { "UZS": { "name": "Uzbekistani soʻm", "symbol": "so'm" } },
+    "dial_code": ["+998"],
+    "timezone": { "Asia/Samarkand": "+05:00", "Asia/Tashkent": "+05:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/UZ.svg"
+  },
+  {
+    "country": "Vanuatu",
+    "capital": ["Port Vila"],
+    "iso": { "alpha-2": "VU", "alpha-3": "VUT", "numeric": "548" },
+    "currency": { "VUV": { "name": "Vanuatu vatu", "symbol": "Vt" } },
+    "dial_code": ["+678"],
+    "timezone": { "Pacific/Efate": "+11:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VU.svg"
+  },
+  {
+    "country": "Venezuela, Bolivarian Republic of",
+    "capital": ["Caracas"],
+    "iso": { "alpha-2": "VE", "alpha-3": "VEN", "numeric": "862" },
+    "currency": {
+      "VES": { "name": "Venezuelan bolívar soberano", "symbol": "Bs.S." }
+    },
+    "dial_code": ["+58"],
+    "timezone": { "America/Caracas": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VE.svg"
+  },
+  {
+    "country": "Viet Nam",
+    "capital": ["Hanoi"],
+    "iso": { "alpha-2": "VN", "alpha-3": "VNM", "numeric": "704" },
+    "currency": { "VND": { "name": "Vietnamese đồng", "symbol": "₫" } },
+    "dial_code": ["+84"],
+    "timezone": { "Asia/Ho_Chi_Minh": "+07:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VN.svg"
+  },
+  {
+    "country": "Virgin Islands, British",
+    "capital": ["Road Town"],
+    "iso": { "alpha-2": "VG", "alpha-3": "VGB", "numeric": "092" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-284"],
+    "timezone": { "America/Tortola": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VG.svg"
+  },
+  {
+    "country": "Virgin Islands, U.S.",
+    "capital": ["Charlotte Amalie"],
+    "iso": { "alpha-2": "VI", "alpha-3": "VIR", "numeric": "850" },
+    "currency": { "USD": { "name": "United States dollar", "symbol": "$" } },
+    "dial_code": ["+1-340"],
+    "timezone": { "America/St_Thomas": "-04:00" },
+    "region": "Americas",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/VI.svg"
+  },
+  {
+    "country": "Wallis and Futuna",
+    "capital": ["Mata-Utu"],
+    "iso": { "alpha-2": "WF", "alpha-3": "WLF", "numeric": "876" },
+    "currency": { "XPF": { "name": "CFP franc", "symbol": "₣" } },
+    "dial_code": ["+681"],
+    "timezone": { "Pacific/Wallis": "+12:00" },
+    "region": "Oceania",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/WF.svg"
+  },
+  {
+    "country": "Yemen",
+    "capital": ["Sana'a"],
+    "iso": { "alpha-2": "YE", "alpha-3": "YEM", "numeric": "887" },
+    "currency": { "YER": { "name": "Yemeni rial", "symbol": "﷼" } },
+    "dial_code": ["+967"],
+    "timezone": { "Asia/Aden": "+03:00" },
+    "region": "Asia",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/YE.svg"
+  },
+  {
+    "country": "Zambia",
+    "capital": ["Lusaka"],
     "iso": { "alpha-2": "ZM", "alpha-3": "ZMB", "numeric": "894" },
-    "region": "Africa"
+    "currency": { "ZMW": { "name": "Zambian kwacha", "symbol": "ZK" } },
+    "dial_code": ["+260"],
+    "timezone": { "Africa/Lusaka": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZM.svg"
   },
   {
-    "currencyName": "Zimbabwean Dollar",
-    "currencyCode": "ZWL",
-    "displayName": "Zimbabwean Dollar - (ZWL)",
-    "countryName": "Zimbabwe",
-    "countryCode": ["+263"],
-    "countryFlag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZW.svg",
-    "timezones": { "Africa/Harare": "+02:00" },
+    "country": "Zimbabwe",
+    "capital": ["Harare"],
     "iso": { "alpha-2": "ZW", "alpha-3": "ZWE", "numeric": "716" },
-    "region": "Africa"
+    "currency": { "ZWL": { "name": "Zimbabwean dollar", "symbol": "$" } },
+    "dial_code": ["+263"],
+    "timezone": { "Africa/Harare": "+02:00" },
+    "region": "Africa",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/ZW.svg"
+  },
+  {
+    "country": "Åland Islands",
+    "capital": ["Mariehamn"],
+    "iso": { "alpha-2": "AX", "alpha-3": "ALA", "numeric": "248" },
+    "currency": { "EUR": { "name": "Euro", "symbol": "€" } },
+    "dial_code": ["+358-18"],
+    "timezone": { "Europe/Mariehamn": "+03:00" },
+    "region": "Europe",
+    "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AX.svg"
   }
 ]
