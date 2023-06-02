@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node": "^20.2.0"
+  },
+  "name": "countries-data",
+  "version": "1.0.0",
+  "description": "get countries data like capital, currency, timezone, iso codes, dial codes and others ",
+  "main": "getData.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ankit kumar",
+  "license": "MIT"
+}
