@@ -1,6 +1,14 @@
+/* eslint-disable @next/next/no-img-element */
 import countriesData from "./countriesData.json";
 import "./styles.css";
-import { useState } from "react";
+type Country = {
+  country?: string;
+  capital?: string[];
+  dial_code?: string;
+  region?: string;
+  flag?: string;
+  phoneLength?: string;
+};
 type Props = {
   label?: string;
   defaultCountryCode?: string;
@@ -25,21 +33,28 @@ export default function CustomPhoneInput({
   onChange = () => {},
 }: Props) {
   const [show, setShow] = useState(false);
+
   const [value, setValue] = useState(defaultValue || "");
+
   const defaultCountryData = countriesData.find(
-    (country) => country.dial_code.toString() === defaultCountryCode
+    (country) => country.dial_code === defaultCountryCode
   );
-  const [selectedValues, setSelectedValues] = useState({
-    code: defaultCountryData?.dial_code.toString(),
-    flag: defaultCountryData?.flag,
+
+  const [selectedValues, setSelectedValues] = useState<Country>({
+    dial_code: defaultCountryData?.dial_code!,
+    flag: defaultCountryData?.flag!,
+    phoneLength: defaultCountryData?.phoneLength!,
   });
-  console.log(show);
-  // const num = phoneUtil.;
-  const selectCountry = ({ code, flag }: any) => {
+
+  const selectCountry = (country: Country) => {
     setShow((prev) => !prev);
-    setSelectedValues({ code: code.toString(), flag: flag });
+    setSelectedValues({
+      dial_code: country?.dial_code,
+      flag: country.flag,
+      phoneLength: country.phoneLength,
+    });
   };
-  console.log(value);
+
   return (
     <label className="phone_library">
       <span>{label}</span>
@@ -47,12 +62,7 @@ export default function CustomPhoneInput({
         {show && (
           <div className="input_dropDown">
             {countriesData.map((country, index) => (
-              <div
-                onClick={() =>
-                  selectCountry({ code: country.dial_code, flag: country.flag })
-                }
-                key={index}
-              >
+              <div onClick={() => selectCountry(country)} key={index}>
                 <img
                   src={country.flag}
                   alt="country_flag"
@@ -76,15 +86,15 @@ export default function CustomPhoneInput({
               height={"30"}
             />
           </div>
-          <span>{selectedValues.code}</span>
+          <span>{selectedValues.dial_code}</span>
         </div>
         <input
           onChange={(e) => {
             setValue((v) => (e.target.validity.valid ? e.target.value : v));
             onChange({
               value: e.target.value,
-              countryCode: selectedValues.code?.toString(),
-              formattedValue: `${selectedValues?.code?.toString()}${" "}${
+              countryCode: selectedValues.dial_code,
+              formattedValue: `${selectedValues?.dial_code}${" "}${
                 e.target.value
               }`,
             });
@@ -93,7 +103,7 @@ export default function CustomPhoneInput({
           className="input"
           type="text"
           placeholder={placeholder}
-          maxLength={defaultCountryData?.phoneLength[0] as number}
+          maxLength={Number(selectedValues?.phoneLength)}
           pattern="[0-9]*"
         />
       </div>

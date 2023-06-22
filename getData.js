@@ -1,27 +1,28 @@
 const countriesData = require("./countries.json");
 const countriesLength = require("./numberlength.json");
-
+const last = require("./last.json");
 const fs = require("fs");
 
-const final = [];
+const final = countriesData;
 
-countriesData.forEach((e) => {
-  countriesLength.forEach((c) => {
-    if (e.iso["alpha-2"] === c.code) {
-      final.push({
-        ...e,
-        phoneLength: c.phoneLength
-          ? typeof c.phoneLength == []
-            ? c.phoneLength
-            : [c.phoneLength]
-          : [],
-      });
-    }
-    return;
-  });
+final.forEach((data) => {
+  data.dial_code = data.dial_code.toString();
+  data.phoneLength = data.phoneLength.toString();
 });
 
-fs.writeFile("last.json", JSON.stringify(final), (err) => {
+// countriesLength.forEach((e) => {
+//   countriesData.forEach((c) => {
+//     if (e.country === c.country) {
+//       final.push({
+//         ...c,
+//         phoneLength: e.phLength,
+//       });
+//     }
+//     return;
+//   });
+// });
+
+fs.writeFile("ultraLast.json", JSON.stringify(final), (err) => {
   if (err) console.log(err);
   else {
     console.log("File written successfully");
